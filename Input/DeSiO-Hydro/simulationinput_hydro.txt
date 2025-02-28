@@ -1,0 +1,8 @@
+!! simulation input for hydrodynamic simulation
+!!
+!! simulation parameters: (1) = name of the simulation, (2) = simulation time, (3) = time step
+hydro_test_1	10.0d0	1.0d0
+!!
+!!
+!! coupling: (1) = switch for coupling (0 no coupling =  / 1 = coupled with structural simulation)	RIGHT NOW ONLY 0 IMPLEMENTED!
+0

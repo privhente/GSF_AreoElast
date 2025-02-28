@@ -1,0 +1,19 @@
+!!
+!!
+!!number of constraints "6 to 12"
+12
+!!
+!!
+!!constraints: sort (1), nodes (2, 3) first node12 and second node6
+softtransition 	1	5
+softtransition 	1	35
+softtransition 	1	36
+softtransition 	1	37
+softtransition 	1	128
+softtransition 	1	158
+softtransition 	1	159
+softtransition 	1	221
+softtransition 	1	251
+softtransition 	1	252
+softtransition 	1	313
+softtransition 	1	314

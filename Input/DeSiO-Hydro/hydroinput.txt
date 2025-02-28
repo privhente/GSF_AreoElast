@@ -1,0 +1,4 @@
+!! global parameters of the hydrodynamic model
+!!
+!! hydrodynamic parameters: (1) = water depth, (2) = water density, (3) = wave length, (4) = wave period, (5) = wave height, (6) = current velocity (in x-direction)
+40.0d0	1.0d3	20.0d0	3.579071943666488d0	2.0d0	0.0d0

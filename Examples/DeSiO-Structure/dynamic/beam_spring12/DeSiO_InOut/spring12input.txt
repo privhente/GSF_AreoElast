@@ -1,0 +1,91 @@
+!!
+!!
+!!number of springs for nodes with 12 coordinates (1), number of spring properties
+6 7
+!!
+!!
+!!spring for nodes with 12 coordinates: sort(1), node (2), spring property (3), dir/rot axis related to spatial cos. (4,5,6)
+translatory_inplane	12	7	1.0d0	1.0d0	0.0d0
+translatory_inplane	13	7	1.0d0	1.0d0	0.0d0
+translatory_inplane	14	7	1.0d0	1.0d0	0.0d0
+translatory_inplane	15	7	1.0d0	1.0d0	0.0d0
+translatory_inplane	16	7	1.0d0	1.0d0	0.0d0
+translatory_inplane	17	7	1.0d0	1.0d0	0.0d0
+!!
+!! 1m - horizontal stiffness
+!! load-deflection paths 1: columns(1) deflection/rotation, column (2) force/moment
+7
+0.0000 0.00
+0.0077 30.587659756619587d03
+0.0195 58.631443771784916d03
+0.0340 81.3428728673639d03
+0.0496 82.1989848957378d03
+0.0659 85.83134593041041d03
+0.0813 100.93566929615372d03
+!!
+!! 2m - horizontal stiffness
+!! load-deflection paths 2: columns(1) deflection/rotation, column (2) force/moment
+7
+0.0000 0.0000
+0.0099 96.4593d03
+0.0203 171.002d03
+0.0334 229.2545d03
+0.0485 257.4818d03
+0.0671 263.9760d03
+0.0840 500.9055d04
+!!
+!! 3m - horizontal stiffness
+!! load-deflection paths 3: columns(1) deflection/rotation, column (2) force/moment
+8
+0.0000 0.0000
+0.0074 126.4599d03
+0.0151 239.2099d03
+0.0257 338.4210d03
+0.0379 402,1035d03
+0.0539 427.6401d03
+0.0749 442.4876d03
+0.0894 600.2825d04
+!!
+!! 4m - horizontal stiffness
+!! load-deflection paths 4: columns(1) deflection/rotation, column (2) force/moment
+8
+0.0000 0.0000
+0.0091 214.2236d03
+0.0178 370.8677d03
+0.0273 470.0177d03
+0.0375 541.8088d03
+0.0509 572.6777d03
+0.0665 584.4921d03
+0.0852 800.5194d04
+!!
+!! 5m - horizontal stiffness
+!! load-deflection paths 5: columns(1) deflection/rotation, column (2) force/moment
+9
+0.0000 0.0000
+0.0073 219.6049d03
+0.0134 362.4044d03
+0.0217 502.5866d03
+0.0294 579.7223d03
+0.0401 621.4028d03
+0.0517 638.4761d03
+0.0673 644.8113d03
+0.0887 900.2041d04
+!!
+!! 6m - horizontal stiffness
+!! load-deflection paths 6: columns(1) deflection/rotation, column (2) force/moment
+9
+0.0000 0.0000
+0.0047 189.3230d03
+0.0107 373.2159d03
+0.0194 540.8181d03
+0.0267 623.4085d03
+0.0376 654.1429d03
+0.0521 671.3752d03
+0.0684 675.0076d03
+0.0871 1000.7745d04
+!!
+!! 6m - vertical stiffness
+!! load-deflection paths 7: columns(1) deflection/rotation, column (2) force/moment
+2
+0.0000 0.0000
+0.01000 1.0d7

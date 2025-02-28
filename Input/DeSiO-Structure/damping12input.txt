@@ -1,0 +1,21 @@
+!!
+!!
+!!number of springs for nodes with 12 coordinates (1), number of spring properties
+1	1
+!!
+!!
+!!spring for nodes with 12 coordinates: sort(1), node (2), spring property (3), dir/rot axis related to spatial cos. (4,5,6)
+angularvelocity_global 2	1	1.0d0	0.0d0	0.0d0
+!!
+!! angular velocity [rad/s] vs. torque moment [Nm]
+!! load-deflection path 1: columns(1) deflection/rotation, column (2) force/moment
+9
+0.00E+00	0.00E+00
+4.39E+01	0.00E+03
+6.30E+01	0.00E+03
+8.42E+01	0.00E+04
+1.03E+02	2.45E+04
+1.17E+02	3.19E+04
+1.27E+02	3.77E+04
+1.40E+02	3.99E+04
+1.46E+02	4.03E+04

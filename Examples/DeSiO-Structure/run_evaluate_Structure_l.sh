@@ -1,0 +1,26 @@
+#!/bin/bash
+# run_examples.sh
+# Batch file to run all DeSiO-Structure Examples. on Luis Cluster
+clear
+mypath="$(pwd)"
+rm "output_l.log"
+filecheck="check.log"
+echo "Start running DeSiO-Structure examples in " $mypath >> $mypath/output_l.log
+# Loop over directories in DeSiO_Example
+for f1 in $mypath/*; do
+	# if file is directory then
+	if [ -d "$f1" ]; then
+		for f2 in $f1/*; do
+			if [ -d "$f2" ]; then
+				for f3 in $f2/*; do
+					if [ -d "$f3" ]; then
+						f4=$f3
+						cd "$f4"
+						name=$(cat "$filecheck") #'cat $file' is assigned to the $name variable
+						echo 'results from ' $f4 ': ' $name >> $mypath/output_l.log
+					fi
+				done
+			fi
+		done
+	fi
+done

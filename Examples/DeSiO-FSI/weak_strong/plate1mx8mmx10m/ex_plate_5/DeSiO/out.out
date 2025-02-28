@@ -1,0 +1,85 @@
+ -----------------------------------------
+ Starting DeSiO-FSI.exe...
+ -----------------------------------------
+ Parsing shell element input...
+ Parsing springs for 12 DOF ...
+ Parsing matrices for 12 DOF ...
+ Parsing springs for 12 DOF ...
+ Parsing constraints for 6 DOF nodes...
+ Parsing constraints for 12 DOF nodes...
+ Parsing constraints for 6 DOF and 12 DOF nodes...
+ Parsing boundary condition amplitudes for 12 DOF constraints...
+ Parsing loads for 6 DOF constraints...
+ Parsing loads for 12 DOF constraints...
+ Parsing point masses for 6 DOF constraints...
+ Parsing point masses for 12 DOF constraints...
+ Parsing simulation input file...
+ Warning: no simulation file for DeSiO-Structure available...
+ Parsing postprocessing input file...
+ Warning: no postprocessing input file found!
+ Parsing bounded vortex elements
+ Parsing unbounded vortex elements
+ Parsing aero-simulation input file
+ Warning: no simulation file for DeSiO-Aero available...
+ Parsing FSI-simulation input file
+ Parsing FSI input file
+ Initializing simulation model for Fluid-Structur-Interaction
+ Allocating and initializing elements and bodies...
+ Allocating nodes...
+ Initializing beams...
+ Calculating sparse mass matrix...
+ Allocating bounded vortex elements
+ Calculating sparse transformation matrix (nodes and cp)
+ Allocating unbounded vortex elements
+ Calculating sparse transformation matrix for FSI
+ -------------------------------------------------------
+ Running nonlinear FSI...
+ -------------------------------------------------------
+ total time      =       3.000
+ delta time      =       0.006
+ cut off         =       0.010
+ simulation type =     dynamic
+ fsi             =        weak
+ linear. aero    =  0
+ -------------------------------------------------------
+ finding non-zero entries in the iteration matrix
+ Initializing sparse iteration matrix...
+ sparse non-zeroes:       29224
+ F
+ simulation starts from initial state!
+ ... reading initial-state from file failed due to missing files!
+  Aero step:    0 time:      0.006 load steps:  1
+        residuum:   0.58E+02 convergence work:  0.37E+001
+        residuum:   0.15E-02 convergence work:  0.25E-004
+        residuum:   0.37E-08 convergence work:  0.67E-016
+     converged solution at:    0.00556 iterations:  3 residuum:  0.37E-008  t:   2.57854
+  ... Aero converged solution at:    0.00556  t:   3.16117
+  Aero step:    1 time:      0.011 load steps:  1
+        residuum:   0.75E+00 convergence work:  0.14E+002
+        residuum:   0.28E-01 convergence work:  0.68E-002
+        residuum:   0.20E-06 convergence work:  0.15E-011
+        residuum:   0.20E-10 convergence work:  0.38E-019
+     converged solution at:    0.01111 iterations:  4 residuum:  0.20E-010  t:   3.12240
+  ... Aero converged solution at:    0.01111  t:   3.86056
+  Aero step:    2 time:      0.017 load steps:  1
+        residuum:   0.59E+00 convergence work:  0.60E+002
+        residuum:   0.28E+00 convergence work:  0.12E+000
+        residuum:   0.21E-04 convergence work:  0.42E-008
+        residuum:   0.28E-09 convergence work:  0.37E-018
+     converged solution at:    0.01667 iterations:  4 residuum:  0.28E-009  t:   3.13378
+  ... Aero converged solution at:    0.01667  t:   4.07925
+  Aero step:    3 time:      0.022 load steps:  1
+        residuum:   0.16E+01 convergence work:  0.97E+002
+        residuum:   0.24E+00 convergence work:  0.45E+000
+        residuum:   0.57E-04 convergence work:  0.15E-006
+        residuum:   0.35E-08 convergence work:  0.34E-015
+     converged solution at:    0.02222 iterations:  4 residuum:  0.35E-008  t:   3.34405
+  ... Aero converged solution at:    0.02222  t:   4.21045
+  Aero step:    4 time:      0.028 load steps:  1
+        residuum:   0.16E+01 convergence work:  0.13E+003
+        residuum:   0.12E+00 convergence work:  0.99E+000
+        residuum:   0.65E-04 convergence work:  0.11E-005
+        residuum:   0.84E-08 convergence work:  0.13E-013
+     converged solution at:    0.02778 iterations:  4 residuum:  0.84E-008  t:   3.35368
+  ... Aero converged solution at:    0.02778  t:   4.17062
+  Aero step:    5 time:      0.033 load steps:  1

@@ -1,0 +1,11 @@
+"Start running DeSiO-FSI - examples" "U:\PhD-2021-12_Christian_Hente\DeSiO-FSI" 
+cantilever_plate_beam - DeSiO_InOut -             11.370045661926270 
+ 
+cantilever_plate_shell - DeSiO_InOut -             20.868341445922852 
+ 
+simplified_wea - DeSiO_InOut -           1021.549499511718750 
+ 
+studies - free_flying_plate -             12.646610260009766 
+ 
+suspension_bridge - DeSiO_InOut -           4143.682128906250000 
+ 

@@ -1,0 +1,18 @@
+!! 
+!! 
+!! number of constraints for nodes with 12 coordinates: 
+11 
+!! 
+!! 
+!! constraints for nodes with 12 coordinates: sort (1), nodes (2, 3), phi1 (4, 5, 6), phi2 (7, 8, 9), dir (10, 11, 12): 
+rigidsupport	1	0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0
+internal	2	0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0
+internal	3	0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0
+internal	4	0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0
+internal	5	0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0
+internal	6	0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0
+internal	7	0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0
+internal	8	0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0
+internal	9	0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0
+internal	10	0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0
+rigidsupport	11	0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0	0.00d0

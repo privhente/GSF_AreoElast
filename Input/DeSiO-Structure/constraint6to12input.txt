@@ -1,0 +1,19 @@
+!!
+!!
+!!number of constraints "6 to 12"
+12
+!!
+!!
+!!constraints: sort (1), nodes (2, 3) first node12 and second node6
+rigidtransition 	1	5
+rigidtransition 	1	35
+rigidtransition 	1	36
+rigidtransition 	1	37
+rigidtransition 	1	128
+rigidtransition 	1	158
+rigidtransition 	1	159
+rigidtransition 	1	221
+rigidtransition 	1	251
+rigidtransition 	1	252
+rigidtransition 	1	313
+rigidtransition 	1	314

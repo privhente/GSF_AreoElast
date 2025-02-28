@@ -1,0 +1,24 @@
+!! 
+!! 
+!! simualtion filename 
+solution 
+!! 
+!! 
+!! Number of simulations 
+2
+!! 
+!! 
+!! simulation settings: totalt (1), deltat (2), tolerance (3), iteration limit (4), gravity flag (5) 
+static  
+1.0d0 0.5d0 1.0d-6 50 0
+0
+!! 
+!! 
+!! simulation settings: number of EV (1), tolerance (2),search range emin (3), emax (4), sparse flag (5) (0 - dense; 1 - sparse)
+buckling  
+50 1.0d-8 0.0d0 1.0d5 0
+0
+!! 
+!! 
+!! gravity vector (1, 2, 3). 
+0.0d0 0.0d0 0.0d0 

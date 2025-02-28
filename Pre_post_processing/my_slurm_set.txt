@@ -1,0 +1,10 @@
+#!/bin/bash -l
+#SBATCH --ntasks=10
+#SBATCH --nodes=1
+#SBATCH --mem=5G
+#SBATCH --time=12:00:00
+#SBATCH --partition=amo
+#SBATCH --mail-user=c.hente@isd.uni-hannover.de
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --output output.out
+#SBATCH --error error.err

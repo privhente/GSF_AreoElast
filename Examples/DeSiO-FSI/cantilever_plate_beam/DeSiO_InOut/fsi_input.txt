@@ -1,0 +1,8 @@
+!! 
+!!  
+!! number of fluid-structur interactions 
+1 
+!!  
+!!  
+!! beam from beaminput (1) surface from surfaceinput (2) local search radius (3) 
+beam 1 1 0.60d0

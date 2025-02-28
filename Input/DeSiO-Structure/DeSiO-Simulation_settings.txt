@@ -1,0 +1,41 @@
+!! Settings for nonlinear dynamic solver with constant time stepping
+!! row1: simulation settings: totalt (1), deltat (2), tolerance (3), iteration limit (4), gravity flag (5)
+!! row2: flag for writing matrices - on/off = 1/0
+dynamic
+1.0d0 1.0d-2 1.0d-6 50 0
+0
+
+!! Settings for nonlinear static solver with constant load stepping
+!! row1: simulation settings: total step (1), delta step (2), tolerance (3), iteration limit (4), gravity flag (5)
+!! row2: flag for writing matrices - on/off = 1/0
+static
+1.0d0 1.0d-2 1.0d-6 50 0
+0
+
+!! Settings for nonlinear static solver applying arc-length method
+!! row1: simulation settings: total step (1), delta step (2), tolerance (3), iteration limit (4), arc length method (5), number of desired iterations (6)
+!! row2: flag for writing matrices - on/off = 1/0
+static_arc
+1.0d0 1.0d-2 1.0d-6 50 2 0
+0
+
+!! Settings for linear buckling analysis (a pre-static analysis should be performed before)
+!! row1: simulation settings: number of EV (1), tolerance (2), emin (3), emax (4), solver flag (0 - dense; 1 - sparse (5)
+!! row2: flag for writing matrices - on/off = 1/0
+buckling  
+10 1.0d-8 0.0d0 1.0d8 0
+0
+
+!! Settings for linear modal analysis (a pre-static/dynamic analysis could be performed before considering pre-stress configurations)
+!! row1: simulation settings: number of EF (1), tolerance (2), emin (3), emax (4), solver flag (0 - dense; 1 - sparse (5)
+!! row2: flag for writing matrices - on/off = 1/0
+modal
+20 1.0d-8 0.0d0 1.0d8 0
+0
+
+!! Settings for determining energy values by given q and v input
+!! row1: simulation settings: number of EF (1), tolerance (2), emin (3), emax (4), solver flag (0 - dense; 1 - sparse (5)
+!! row2: flag for writing matrices - on/off = 1/0
+invariants
+0
+0

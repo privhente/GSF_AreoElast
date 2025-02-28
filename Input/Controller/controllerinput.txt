@@ -1,0 +1,22 @@
+!! 
+!! 
+!! operating system: windows or linux 
+windows
+!! 
+!! 
+!! controller input file name - e.g. DISCON_DATA.IN (case sensitive)
+DISCON_DATA.IN
+!! 
+!! 
+!! initial pitch angle 
+9.00000000d+01 
+!! 
+!! 
+!! number of blades 
+3 
+!! row(1): beam body numbers 
+!! row(2): revolutejoint_2 constraint numbers of 
+!! row(2): rotation_local constraint numbers to blade pitching 
+3	4	5	
+5	6	7	
+8	9	10	

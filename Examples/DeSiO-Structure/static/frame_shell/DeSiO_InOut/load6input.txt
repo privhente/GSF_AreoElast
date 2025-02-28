@@ -1,0 +1,12 @@
+!!
+!!
+!!number of loads for nodes with 6 coordinates.
+5
+!!
+!!
+!!loads for nodes with 6 coordinates: sort (1), intensity (2), duration (3), node (4), reference vector (5, 6, 7)
+linear -0.2d2 1.0d0 115 0.0d0 0.0d0 1.0d0 0
+linear -0.2d2 1.0d0 195 0.0d0 0.0d0 1.0d0 0
+linear -0.2d2 1.0d0 176 0.0d0 0.0d0 1.0d0 0
+linear -0.2d2 1.0d0 157 0.0d0 0.0d0 1.0d0 0
+linear -0.2d2 1.0d0 150 0.0d0 0.0d0 1.0d0 0

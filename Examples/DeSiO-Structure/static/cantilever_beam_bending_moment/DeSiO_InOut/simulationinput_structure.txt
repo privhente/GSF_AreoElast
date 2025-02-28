@@ -1,0 +1,18 @@
+!!
+!!
+!!
+solution
+!! 
+!! 
+!! Number of simulations 
+1
+!!
+!!
+!! simulation settings
+static
+1.0d0 1.0d-2 1.0d-6 50 0
+0
+!!
+!! 
+!! gravity vector (1, 2, 3). 
+0.0d0 0.0d0 0.0d0 

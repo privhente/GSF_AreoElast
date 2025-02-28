@@ -1,0 +1,348 @@
+ -----------------------------------------
+ Starting DeSiO-FSI.exe...
+ -----------------------------------------
+ Parsing shell element input...
+ Parsing springs for 12 DOF ...
+ Parsing matrices for 12 DOF ...
+ Parsing springs for 12 DOF ...
+ Parsing constraints for 6 DOF nodes...
+ Parsing constraints for 12 DOF nodes...
+ Parsing constraints for 6 DOF and 12 DOF nodes...
+ Parsing boundary condition amplitudes for 12 DOF constraints...
+ Parsing loads for 6 DOF constraints...
+ Parsing loads for 12 DOF constraints...
+ Parsing point masses for 6 DOF constraints...
+ Parsing point masses for 12 DOF constraints...
+ Parsing simulation input file...
+ Parsing postprocessing input file...
+ Warning: no postprocessing input file found!
+ Parsing bounded vortex elements
+ Warning: no surfaceinput.txt found
+ Parsing unbounded vortex elements
+ Warning: no wakeinput.txt found
+ Parsing aero-simulation input file
+ Warning: no simulation file for DeSiO-Aero available...
+ Parsing FSI-simulation input file
+ Warning: no simulation file for DeSiO-FSI available...
+ Parsing FSI input file
+ Warning: no fsi input file for DeSiO-FSI available...
+ Error: simulation abort due to error in fsi...
+ Continuing with DeSiO-Structure.exe...
+ -----------------------------------------
+ Starting DeSiO-Structure...
+ -----------------------------------------
+ Initializing simulation model...
+ Allocating and initializing elements and bodies...
+ Allocating nodes...
+ Initializing shells...
+ Calculating sparse mass matrix...
+ finding non-zero entries in the iteration matrix
+ Initializing sparse iteration matrix...
+ sparse non-zeroes:      319030
+ running simulation with timestep:   1.000000000000000E-002
+ Simulation type: static
+  Starting static calculation at step:    0.00000
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.77E-009
+     time:      0.010 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.77E-009
+     time:      0.020 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.77E-009
+     time:      0.030 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.77E-009
+     time:      0.040 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.77E-009
+     time:      0.050 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.77E-009
+     time:      0.060 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.77E-009
+     time:      0.070 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.77E-009
+     time:      0.080 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.77E-009
+     time:      0.090 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.100 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.110 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.120 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.130 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.140 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.150 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.160 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.170 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.180 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.190 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.200 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.210 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.220 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.230 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.240 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.250 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.260 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.270 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.280 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.290 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.300 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.310 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.320 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.330 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.340 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.350 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.360 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.370 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.380 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.390 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.78E-009
+     time:      0.400 iterations:  2 residuum:  0.86E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.410 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.87E-07 unbalanced forces: -0.78E-009
+     time:      0.420 iterations:  2 residuum:  0.87E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.78E-009
+     time:      0.430 iterations:  2 residuum:  0.86E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.78E-009
+     time:      0.440 iterations:  2 residuum:  0.86E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.78E-009
+     time:      0.450 iterations:  2 residuum:  0.86E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.78E-009
+     time:      0.460 iterations:  2 residuum:  0.86E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.78E-009
+     time:      0.470 iterations:  2 residuum:  0.86E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.78E-009
+     time:      0.480 iterations:  2 residuum:  0.86E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.78E-009
+     time:      0.490 iterations:  2 residuum:  0.86E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.78E-009
+     time:      0.500 iterations:  2 residuum:  0.86E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.78E-009
+     time:      0.510 iterations:  2 residuum:  0.86E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.78E-009
+     time:      0.520 iterations:  2 residuum:  0.86E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.78E-009
+     time:      0.530 iterations:  2 residuum:  0.86E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.78E-009
+     time:      0.540 iterations:  2 residuum:  0.86E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.78E-009
+     time:      0.550 iterations:  2 residuum:  0.86E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.78E-009
+     time:      0.560 iterations:  2 residuum:  0.86E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.78E-009
+     time:      0.570 iterations:  2 residuum:  0.86E-007
+     residuum:   0.34E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.78E-009
+     time:      0.580 iterations:  2 residuum:  0.86E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.78E-009
+     time:      0.590 iterations:  2 residuum:  0.86E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.78E-009
+     time:      0.600 iterations:  2 residuum:  0.86E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.78E-009
+     time:      0.610 iterations:  2 residuum:  0.86E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.78E-009
+     time:      0.620 iterations:  2 residuum:  0.86E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.78E-009
+     time:      0.630 iterations:  2 residuum:  0.86E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.79E-009
+     time:      0.640 iterations:  2 residuum:  0.86E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.79E-009
+     time:      0.650 iterations:  2 residuum:  0.86E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.79E-009
+     time:      0.660 iterations:  2 residuum:  0.86E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.86E-07 unbalanced forces: -0.79E-009
+     time:      0.670 iterations:  2 residuum:  0.86E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.85E-07 unbalanced forces: -0.79E-009
+     time:      0.680 iterations:  2 residuum:  0.85E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.85E-07 unbalanced forces: -0.79E-009
+     time:      0.690 iterations:  2 residuum:  0.85E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.85E-07 unbalanced forces: -0.79E-009
+     time:      0.700 iterations:  2 residuum:  0.85E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.85E-07 unbalanced forces: -0.79E-009
+     time:      0.710 iterations:  2 residuum:  0.85E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.85E-07 unbalanced forces: -0.79E-009
+     time:      0.720 iterations:  2 residuum:  0.85E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.85E-07 unbalanced forces: -0.79E-009
+     time:      0.730 iterations:  2 residuum:  0.85E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.85E-07 unbalanced forces: -0.79E-009
+     time:      0.740 iterations:  2 residuum:  0.85E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.85E-07 unbalanced forces: -0.79E-009
+     time:      0.750 iterations:  2 residuum:  0.85E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.85E-07 unbalanced forces: -0.79E-009
+     time:      0.760 iterations:  2 residuum:  0.85E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.85E-07 unbalanced forces: -0.79E-009
+     time:      0.770 iterations:  2 residuum:  0.85E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.85E-07 unbalanced forces: -0.79E-009
+     time:      0.780 iterations:  2 residuum:  0.85E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.85E-07 unbalanced forces: -0.79E-009
+     time:      0.790 iterations:  2 residuum:  0.85E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.85E-07 unbalanced forces: -0.79E-009
+     time:      0.800 iterations:  2 residuum:  0.85E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.85E-07 unbalanced forces: -0.79E-009
+     time:      0.810 iterations:  2 residuum:  0.85E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.85E-07 unbalanced forces: -0.79E-009
+     time:      0.820 iterations:  2 residuum:  0.85E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.85E-07 unbalanced forces: -0.79E-009
+     time:      0.830 iterations:  2 residuum:  0.85E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.85E-07 unbalanced forces: -0.79E-009
+     time:      0.840 iterations:  2 residuum:  0.85E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.85E-07 unbalanced forces: -0.79E-009
+     time:      0.850 iterations:  2 residuum:  0.85E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.85E-07 unbalanced forces: -0.79E-009
+     time:      0.860 iterations:  2 residuum:  0.85E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.85E-07 unbalanced forces: -0.79E-009
+     time:      0.870 iterations:  2 residuum:  0.85E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.84E-07 unbalanced forces: -0.79E-009
+     time:      0.880 iterations:  2 residuum:  0.84E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.84E-07 unbalanced forces: -0.79E-009
+     time:      0.890 iterations:  2 residuum:  0.84E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.84E-07 unbalanced forces: -0.79E-009
+     time:      0.900 iterations:  2 residuum:  0.84E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.84E-07 unbalanced forces: -0.79E-009
+     time:      0.910 iterations:  2 residuum:  0.84E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.84E-07 unbalanced forces: -0.79E-009
+     time:      0.920 iterations:  2 residuum:  0.84E-007
+     residuum:   0.33E-02 unbalanced forces: -0.61E-003
+     residuum:   0.84E-07 unbalanced forces: -0.79E-009
+     time:      0.930 iterations:  2 residuum:  0.84E-007
+     residuum:   0.32E-02 unbalanced forces: -0.61E-003
+     residuum:   0.84E-07 unbalanced forces: -0.79E-009
+     time:      0.940 iterations:  2 residuum:  0.84E-007
+     residuum:   0.32E-02 unbalanced forces: -0.61E-003
+     residuum:   0.84E-07 unbalanced forces: -0.79E-009
+     time:      0.950 iterations:  2 residuum:  0.84E-007
+     residuum:   0.32E-02 unbalanced forces: -0.61E-003
+     residuum:   0.84E-07 unbalanced forces: -0.79E-009
+     time:      0.960 iterations:  2 residuum:  0.84E-007
+     residuum:   0.32E-02 unbalanced forces: -0.61E-003
+     residuum:   0.84E-07 unbalanced forces: -0.79E-009
+     time:      0.970 iterations:  2 residuum:  0.84E-007
+     residuum:   0.32E-02 unbalanced forces: -0.61E-003
+     residuum:   0.84E-07 unbalanced forces: -0.79E-009
+     time:      0.980 iterations:  2 residuum:  0.84E-007
+     residuum:   0.32E-02 unbalanced forces: -0.61E-003
+     residuum:   0.84E-07 unbalanced forces: -0.79E-009
+     time:      0.990 iterations:  2 residuum:  0.84E-007
+     residuum:   0.32E-02 unbalanced forces: -0.61E-003
+     residuum:   0.84E-07 unbalanced forces: -0.79E-009
+     time:      1.000 iterations:  2 residuum:  0.84E-007
+ Closing output files...
+  Simulation finished
+  CPU  time =    151.0156      seconds. 
+  Wall time =    88.03900      seconds. 

@@ -1,0 +1,8 @@
+!! 
+!!  
+!! number of fluid-structur interactions 
+1 
+!!  
+!!  
+!! input for fluid-structure interaction: from shell/beaminput (1), surface from surfaceinput (2) local search radius (3) 
+shell 1 1 0.01d0

@@ -1,0 +1,22 @@
+!! 
+!! 
+!! jobname (1), old jobname aero (2) - can be empty, prev jobname structure (3) - can be empty
+solution_fsi
+!!  
+!! filename of previous simulation 
+!! total time (1) deltat aero (2) cutoff (3) time for load factor (4) type of load factor function (5)
+50.00d0 0.0300000d0 0.01000d0 50.000000000d0 constant
+!! 
+!! 
+!! wind data: sort(1), fluid density(2), intensity(3), duration(4), direction vector (5-7)  
+constant      1.00000000d0      10.00000000d0    10.0000000d0      0.00000000d0      0.99d0 0.01d0
+!!  
+!! filename of previous simulation 
+!! deltat (1), tolerance (2), iteration limit (3), gravity flag (4), row2: flag for writing matrices, flag for linearization of aero
+static 
+0.03 1.0d-6 30 0 
+0 0
+!! 
+!! 
+!! gravity vector (1, 2, 3): 
+0.00d0 0.00d0 0.00d0 

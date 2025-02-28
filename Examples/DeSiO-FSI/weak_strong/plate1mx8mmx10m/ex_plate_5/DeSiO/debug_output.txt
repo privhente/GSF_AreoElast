@@ -1,0 +1,713 @@
+ -----------------------------------------
+ Starting DeSiO-FSI.exe...
+ -----------------------------------------
+ Parsing shell element input...
+ Parsing springs for 12 DOF ...
+ Parsing matrices for 12 DOF ...
+ Parsing springs for 12 DOF ...
+ Parsing constraints for 6 DOF nodes...
+ Parsing constraints for 12 DOF nodes...
+ Parsing constraints for 6 DOF and 12 DOF nodes...
+ Parsing boundary condition amplitudes for 12 DOF constraints...
+ Parsing loads for 6 DOF constraints...
+ Parsing loads for 12 DOF constraints...
+ Parsing point masses for 6 DOF constraints...
+ Parsing point masses for 12 DOF constraints...
+ Parsing simulation input file...
+ Warning: no simulation file for DeSiO-Structure available...
+ Parsing postprocessing input file...
+ Warning: no postprocessing input file found!
+ Parsing bounded vortex elements
+ Parsing unbounded vortex elements
+ Parsing aero-simulation input file
+ Warning: no simulation file for DeSiO-Aero available...
+ Parsing FSI-simulation input file
+ Parsing FSI input file
+ Initializing simulation model for Fluid-Structur-Interaction
+ Allocating and initializing elements and bodies...
+ Allocating nodes...
+ Initializing beams...
+ Calculating sparse mass matrix...
+ Allocating bounded vortex elements
+ Calculating sparse transformation matrix (nodes and cp)
+ Allocating unbounded vortex elements
+ Calculating sparse transformation matrix for FSI
+ -------------------------------------------------------
+ Running nonlinear FSI...
+ -------------------------------------------------------
+ total time      =       3.000
+ delta time      =       0.006
+ cut off         =       0.010
+ simulation type =     dynamic
+ fsi             =        weak
+ linear. aero    =  0
+ -------------------------------------------------------
+ finding non-zero entries in the iteration matrix
+ Initializing sparse iteration matrix...
+ sparse non-zeroes:       29224
+ F
+ simulation starts from initial state!
+ ... reading initial-state from file failed due to missing files!
+  Aero step:    0 time:      0.006 load steps:  1
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.15E+10 convergence work:  0.47E+012
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.89E+00 convergence work:  0.42E+012
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.10E+01 convergence work:  0.46E+012
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.68E+00 convergence work:  0.37E+012
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.11E+01 convergence work:  0.21E+012
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.95E+00 convergence work:  0.11E+012
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.14E+03 convergence work:  0.15E+013
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.12E+06 convergence work:  0.44E+021
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.10E+04 convergence work:  0.13E+028
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.76E+04 convergence work:  0.60E+037
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.62E+04 convergence work:  0.36E+042
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.40E+05 convergence work:  0.17E+052
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.71E+03 convergence work:  0.33E+058
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.11E+04 convergence work:  0.26E+064
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.40E+04 convergence work:  0.44E+072
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.53E+03 convergence work:  0.78E+077
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.20E+03 convergence work:  0.20E+081
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.12E+05 convergence work:  0.86E+089
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.81E+05 convergence work:  0.38E+096
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.27E+06 convergence work:  0.90E+110
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.74E+04 convergence work:  0.55E+119
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.91E+04 convergence work:  0.18E+126
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.66E+05 convergence work:  0.16E+135
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.33E+05 convergence work:  0.11E+146
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.19E+04 convergence work:  0.13E+155
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.32E+04 convergence work:  0.88E+161
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.72E+05 convergence work:  0.13E+168
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.30E+05 convergence work:  0.53E+176
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.28E+04 convergence work:  0.20E+186
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.85E+02 convergence work:  0.40E+188
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.20E+04 convergence work:  0.14E+194
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.81E+02 convergence work:  0.38E+201
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.49E+05 convergence work:  0.85E+204
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.56E+04 convergence work:  0.10E+218
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.77E+02 convergence work:  0.16E+219
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.27E+04 convergence work:  0.74E+224
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.37E+03 convergence work:  0.14E+231
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.26E+05 convergence work:  0.14E+237
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.61E+06 convergence work:  0.51E+252
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.42E+03 convergence work:  0.31E+258
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.59E+03 convergence work:  0.36E+261
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.86E+02 convergence work:  0.66E+266
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.15E+05 convergence work:  0.11E+273
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.19E+01 convergence work:  0.46E+279
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   0.27E+06 convergence work:  0.21E+284
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:   Infinity convergence work:  0.16E+298
+forrtl: warning (406): fort: (1): In call to DSS_SOLVE_REAL_D_, an array temporary was created for argument #3
+
+Image              PC                Routine            Line        Source             
+DeSiO              00000000007985DF  solver                    194  solver_functions.f90
+DeSiO              00000000009D5B0D  fsi_dynamic_solve         373  fsi_dynamic_solver.f90
+DeSiO              0000000000A165BB  fsi_dynamic_solve           0  main_fsi_nonlinear.f90
+DeSiO              0000000000A14DF8  main_fsi_nonlinea         158  main_fsi_nonlinear.f90
+DeSiO              0000000000A1AA8B  main_fsi_nonlinea           0  main_program.f90
+DeSiO              0000000000A1AA6C  main_program                3  main_program.f90
+DeSiO              0000000000406ECD  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007FFFEFC2A28B  __libc_start_main     Unknown  Unknown
+DeSiO              0000000000406DE5  Unknown               Unknown  Unknown
+        residuum:        NaN convergence work:        NaN
+ ... solution failed to converge at time  5.555560000000000E-003
+     no convergence at time:    0.00556 iterations: 47 residuum:  0.10E+001
+ Closing output files...
+ Error: simulation crashed!

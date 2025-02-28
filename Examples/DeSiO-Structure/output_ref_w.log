@@ -1,0 +1,31 @@
+"Start running DeSiO-Aero - examples" "U:\PhD-2021-12_Christian_Hente\DeSiO-Structure" 
+buckling - frame_beam -          15675.330078125000000 
+buckling - frame_shell -          15756.180664062500000 
+buckling - frame_shell_beam -         120532.132812500000000 
+buckling - shallow_arc_beam -       27103996.000000000000000 
+buckling - shallow_arc_shell -            670.269348144531250 
+ 
+dynamic - beam_spring12 -             23.002843856811523 
+dynamic - coupled_system_cylinder -            121.837944030761719 
+dynamic - elastic_pendulum_beam -              8.307196617126465 
+dynamic - free_flying_plate_shell -              8.307196617126465 
+dynamic - layered_comp_cantilever_shell -             84.523803710937500 
+dynamic - snap_through_beam -             35.444713592529297 
+dynamic - snap_through_shell -             89.595504760742188 
+dynamic - three_elastic_beam -              7.474542140960693 
+ 
+modal - cantilever_beam_bending_moment -              1.672988057136536 
+modal - cylinder_shell_beam -             11.123682975769043 
+modal - shell_shell -            173.549819946289062 
+modal - snap_through_beam -             63.423923492431641 
+modal - snap_through_shell -             39.223224639892578 
+modal - wt_5mw_beam_rb -              0.000000000000000 
+ 
+static - cantilever_beam_bending_moment -             17.551935195922852 
+static - frame_beam -           1705.261840820312500 
+static - frame_beam_fertig_arc_length -           1644.969604492187500 
+static - frame_shell -           1595.228637695312500 
+static - shallow_arc_beam_arc_length -             35.045806884765625 
+static - shallow_arc_shell_fertig_arc_length -          78360.468750000000000 
+static - shell_beam -           1234.973999023437500 
+ 

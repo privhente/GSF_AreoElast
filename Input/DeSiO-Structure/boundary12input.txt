@@ -1,0 +1,10 @@
+!!
+!!
+!! number of inhomogeneous constraints for nodes with 12 coordinates.
+3
+!!
+!! inhomogeneous constraints for nodes with 12 coordinates: 
+!! sort (1), intensity (2), duration (3), constraint ID (4), file (5) (if no, then none).
+pitch	0.00000000d+00	0.00000000d+00		8	nofile
+pitch	0.00000000d+00	0.00000000d+00		9	nofile
+pitch	0.00000000d+00	0.00000000d+00		10	nofile

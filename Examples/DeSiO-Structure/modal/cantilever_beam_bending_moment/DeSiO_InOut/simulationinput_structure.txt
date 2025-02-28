@@ -1,0 +1,24 @@
+!!
+!!
+!!
+solution
+!! 
+!! 
+!! Number of simulations 
+2
+!!
+!!
+!! simulation settings
+static
+1.0d0 1.0d-1 1.0d-6 50 0
+0
+!!
+!!
+!! simulation settings: number of EV (1), tolerance (2), emin, emax, flag (0 - dense; 1 - sparse)
+modal
+10 1.0d-8 10.0d0 1000.0d0 0
+0
+!!
+!! 
+!! gravity vector (1, 2, 3). 
+0.0d0 0.0d0 0.0d0 

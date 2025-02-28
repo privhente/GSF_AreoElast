@@ -1,0 +1,29 @@
+!!
+!!
+!!number of constraints for nodes with 12 coordinates.
+22
+!!
+!!
+!!constraints for nodes with 12 coordinates: sort (1), nodes (2, 3), phi1 (4, 5, 6), phi2 (7, 8, 9), dir (10, 11, 12)
+internal          1   0 0.0d0 0.0d0  0.0d0             0.0d0 0.0d0 0.0d0 0.0d0 0.0d0 0.0d0 
+internal          2   0 0.0d0 0.0d0  0.0d0             0.0d0 0.0d0 0.0d0 0.0d0 0.0d0 0.0d0
+internal          3   0 0.0d0 0.0d0  0.0d0             0.0d0 0.0d0 0.0d0 0.0d0 0.0d0 0.0d0
+internal          4   0 0.0d0 0.0d0  0.0d0             0.0d0 0.0d0 0.0d0 0.0d0 0.0d0 0.0d0
+internal          5   0 0.0d0 0.0d0  0.0d0             0.0d0 0.0d0 0.0d0 0.0d0 0.0d0 0.0d0
+internal          6   0 0.0d0 0.0d0  0.0d0             0.0d0 0.0d0 0.0d0 0.0d0 0.0d0 0.0d0
+internal          7   0 0.0d0 0.0d0  0.0d0             0.0d0 0.0d0 0.0d0 0.0d0 0.0d0 0.0d0
+internal          8   0 0.0d0 0.0d0  0.0d0             0.0d0 0.0d0 0.0d0 0.0d0 0.0d0 0.0d0
+internal          9   0 0.0d0 0.0d0  0.0d0             0.0d0 0.0d0 0.0d0 0.0d0 0.0d0 0.0d0
+internal         10   0 0.0d0 0.0d0  0.0d0             0.0d0 0.0d0 0.0d0 0.0d0 0.0d0 0.0d0
+internal         11   0 0.0d0 0.0d0  0.0d0             0.0d0 0.0d0 0.0d0 0.0d0 0.0d0 0.0d0
+internal         12   0 0.0d0 0.0d0  0.0d0             0.0d0 0.0d0 0.0d0 0.0d0 0.0d0 0.0d0
+internal         13   0 0.0d0 0.0d0  0.0d0             0.0d0 0.0d0 0.0d0 0.0d0 0.0d0 0.0d0
+internal         14   0 0.0d0 0.0d0  0.0d0             0.0d0 0.0d0 0.0d0 0.0d0 0.0d0 0.0d0
+internal         15   0 0.0d0 0.0d0  0.0d0             0.0d0 0.0d0 0.0d0 0.0d0 0.0d0 0.0d0
+internal         16   0 0.0d0 0.0d0  0.0d0             0.0d0 0.0d0 0.0d0 0.0d0 0.0d0 0.0d0
+internal         17   0 0.0d0 0.0d0  0.0d0             0.0d0 0.0d0 0.0d0 0.0d0 0.0d0 0.0d0
+internal         18   0 0.0d0 0.0d0  0.0d0             0.0d0 0.0d0 0.0d0 0.0d0 0.0d0 0.0d0
+internal         19   0 0.0d0 0.0d0  0.0d0             0.0d0 0.0d0 0.0d0 0.0d0 0.0d0 0.0d0
+internal         20   0 0.0d0 0.0d0  0.0d0             0.0d0 0.0d0 0.0d0 0.0d0 0.0d0 0.0d0
+internal         21   0 0.0d0 0.0d0  0.0d0             0.0d0 0.0d0 0.0d0 0.0d0 0.0d0 0.0d0
+sphericalsupport  1   0 0.0d0 0.0d0  0.0d0             0.0d0 0.0d0 0.0d0 0.0d0 0.0d0 0.0d0

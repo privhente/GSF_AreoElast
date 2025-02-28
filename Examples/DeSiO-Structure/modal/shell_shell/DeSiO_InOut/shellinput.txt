@@ -1,0 +1,50 @@
+!!
+!!
+!! number of shells (1), number of material properties (2), number of material properties (3)
+2 1 1
+!!
+!!
+!!1st shell: number of nodes (1), number of elements (2).
+  4        1      
+!!
+!!
+!!1st shell: nodal phi (1, 2, 3), nodal d (4, 5, 6).
+0.00000  0.00000   0.00000  0.00000   0.00000  1.00000
+1.00000  0.00000   0.00000  0.00000   0.00000  1.00000
+1.00000  1.00000   0.00000  0.00000   0.00000  1.00000
+0.00000  1.00000   0.00000  0.00000   0.00000  1.00000
+!!
+!!
+!!1st shell: connectivities (1, 2, 3, 4), material property (5).
+1    2    3   4   1   
+!!
+!!
+!!2st shell: number of nodes (1), number of elements (2).
+  6        2      
+!!
+!!
+!!2st shell: nodal phi (1, 2, 3), nodal d (4, 5, 6).
+1.00000  0.00000   0.00000  0.00000   0.00000  1.00000
+2.00000  0.00000   0.00000  0.00000   0.00000  1.00000
+2.00000  1.00000   0.00000  0.00000   0.00000  1.00000
+1.00000  1.00000   0.00000  0.00000   0.00000  1.00000
+3.00000  0.00000   0.00000  0.00000   0.00000  1.00000
+3.00000  1.00000   0.00000  0.00000   0.00000  1.00000
+!!
+!!
+!!2st shell: connectivities (1, 2, 3, 4), material property (5).
+1    2    3   4   1 
+2    5    6   3   1   
+!!
+!!
+!!2st material property (CFK): row 1, E1 (1), E2 (2), E3 (3), G23 (4), G13 (5), G12 (6), nu23 (7), nu13 (8), nu12 (9), row 2, rho (10),row3, alpha_v, alpha_s (12).
+7.200d6 7.200d6 7.200d6 2.769d6 2.769d6 2.769d6 0.3 0.3 0.3
+1.00000
+0.00000 0.00000
+!!
+!!
+!! material property 1: row 1, number of layers (1), row 2: material(2..number of layers+1), row 3: thickness (number of layers+2:2*number of layers+1), row 4: angle in degrees (2*number of layers+2:3*number of layers+1).
+1
+1
+0.05d0
+0

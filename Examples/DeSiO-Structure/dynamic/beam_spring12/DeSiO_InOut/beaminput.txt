@@ -1,0 +1,70 @@
+!!
+!!
+!!number of beams (1), number of cross-section properties (2).
+2 2
+!!
+!! Tower
+!!1st beam: number of nodes (1), number of elements (2).
+11 10
+!!
+!!
+!!1st beam: nodal phi (1, 2, 3), nodal d1 (4, 5, 6), nodal d2 (7, 8, 9), nodal d3 (10, 11, 12). 
+0.0d0	0.0d0	0.000	0.0d0	1.0d0	0.0d0	-1.0d0	0.0d0	0.0d0	0.0d0	0.0d0	1.0d0
+0.0d0	0.0d0	1.000	0.0d0	1.0d0	0.0d0	-1.0d0	0.0d0	0.0d0	0.0d0	0.0d0	1.0d0
+0.0d0	0.0d0	2.000	0.0d0	1.0d0	0.0d0	-1.0d0	0.0d0	0.0d0	0.0d0	0.0d0	1.0d0
+0.0d0	0.0d0	3.000	0.0d0	1.0d0	0.0d0	-1.0d0	0.0d0	0.0d0	0.0d0	0.0d0	1.0d0
+0.0d0	0.0d0	4.000	0.0d0	1.0d0	0.0d0	-1.0d0	0.0d0	0.0d0	0.0d0	0.0d0	1.0d0
+0.0d0	0.0d0	5.000	0.0d0	1.0d0	0.0d0	-1.0d0	0.0d0	0.0d0	0.0d0	0.0d0	1.0d0
+0.0d0	0.0d0	6.000	0.0d0	1.0d0	0.0d0	-1.0d0	0.0d0	0.0d0	0.0d0	0.0d0	1.0d0
+0.0d0	0.0d0	7.000	0.0d0	1.0d0	0.0d0	-1.0d0	0.0d0	0.0d0	0.0d0	0.0d0	1.0d0
+0.0d0	0.0d0	8.000	0.0d0	1.0d0	0.0d0	-1.0d0	0.0d0	0.0d0	0.0d0	0.0d0	1.0d0
+0.0d0	0.0d0	9.000	0.0d0	1.0d0	0.0d0	-1.0d0	0.0d0	0.0d0	0.0d0	0.0d0	1.0d0
+0.0d0	0.0d0	10.00	0.0d0	1.0d0	0.0d0	-1.0d0	0.0d0	0.0d0	0.0d0	0.0d0	1.0d0
+!!
+!!
+!!1st beam: connectivities (1, 2), cross-section property (3).
+1	2	1
+2	3	1
+3	4	1
+4	5	1
+5	6	1
+6	7	1
+7	8	1
+8	9	1
+9	10	1
+10	11	1
+!!
+!!Piles
+!!2st beam: number of nodes (1), number of elements (2).
+7 6
+!!
+!!
+!!2st beam: nodal phi (1, 2, 3), nodal d1 (4, 5, 6), nodal d2 (7, 8, 9), nodal d3 (10, 11, 12). 
+0.0d0	0.0d0	 0.000	0.0d0	-1.0d0	0.0d0	-1.0d0	0.0d0	0.0d0	0.0d0	0.0d0	-1.0d0
+0.0d0	0.0d0	-1.000	0.0d0	-1.0d0	0.0d0	-1.0d0	0.0d0	0.0d0	0.0d0	0.0d0	-1.0d0
+0.0d0	0.0d0	-2.000	0.0d0	-1.0d0	0.0d0	-1.0d0	0.0d0	0.0d0	0.0d0	0.0d0	-1.0d0
+0.0d0	0.0d0	-3.000	0.0d0	-1.0d0	0.0d0	-1.0d0	0.0d0	0.0d0	0.0d0	0.0d0	-1.0d0
+0.0d0	0.0d0	-4.000	0.0d0	-1.0d0	0.0d0	-1.0d0	0.0d0	0.0d0	0.0d0	0.0d0	-1.0d0
+0.0d0	0.0d0	-5.000	0.0d0	-1.0d0	0.0d0	-1.0d0	0.0d0	0.0d0	0.0d0	0.0d0	-1.0d0
+0.0d0	0.0d0	-6.000	0.0d0	-1.0d0	0.0d0	-1.0d0	0.0d0	0.0d0	0.0d0	0.0d0	-1.0d0
+!!
+!!
+!!1st beam: connectivities (1, 2), cross-section property (3).
+1	2	2
+2	3	2
+3	4	2
+4	5	2
+5	6	2
+6	7	2
+!!
+!!tower cross-section: ra = 2m, ri = 1.95m
+!!1st cross-section property: row 1, EA, GA1, GA2, EI1, EI2, GIP, ES1, ES2, GS1, GS2, EI12; row 2: rhoA, rhoI1, rhoI2, rhoS1, rhoS2, rhoI12; row 3, alpha_s alpha_v
+1.303E+11	5.011E+10	5.011E+10	2.542E+11	2.542E+11	1.955E+11	8.192E+10	8.192E+10	3.151E+10	3.151E+10	0.000E+00
+4.871E+03	9.501E+03	9.501E+03	3.062E+03	3.062E+03	0.000E+00
+0.200d0 0.200d0
+!!
+!!Pile cross-section: ra = 2m, ri = 1.95m
+!!2st cross-section property: row 1, EA, GA1, GA2, EI1, EI2, GIP, ES1, ES2, GS1, GS2, EI12; row 2: rhoA, rhoI1, rhoI2, rhoS1, rhoS2, rhoI12; row 3, alpha_s alpha_v
+1.303E+11	5.011E+10	5.011E+10	2.542E+11	2.542E+11	1.955E+11	8.192E+10	8.192E+10	3.151E+10	3.151E+10	0.000E+00
+4.871E+03	9.501E+03	9.501E+03	3.062E+03	3.062E+03	0.000E+00	0.0d0 0.0d0
+0.000d0 0.000d0

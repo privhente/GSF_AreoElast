@@ -1,0 +1,18 @@
+!!
+!!
+!! Number of simulation types
+solution 
+!!
+!!
+!!
+1
+!!
+!!
+!! simulation settings:
+modal
+20 1.0d-8 10.0d0 1000.0d0 0
+0
+!!
+!!
+!! gravity direction (1, 2, 3).
+0.0d0 0.0d0 0.0d0

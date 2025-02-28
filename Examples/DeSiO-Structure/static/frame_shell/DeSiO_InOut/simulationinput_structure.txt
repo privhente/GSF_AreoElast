@@ -1,0 +1,18 @@
+!!
+!!
+!!
+solution
+!!
+!!
+!! Number of simulation types
+1
+!!
+!!
+!! dynamic and static: (1) totalt, (2) deltat, (3) tolerance, (4) iteration limit, (5) gravity flag :: modal and buckling: (1) number of EV to extract, (2) tolerance, (3) iteration limit
+static
+1.0d0 1.0d-2 1.0d-6 50 0
+0
+!!
+!!
+!! gravity direction (1, 2, 3).
+0.0d0 0.0d0 0.0d0

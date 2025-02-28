@@ -1,0 +1,19 @@
+!!
+!!
+!!
+solution
+!!
+!!
+!! simulation settings for modal analysis
+1
+!!
+!!
+!! simulation settings
+modal 
+100 1.0d-8 0.0d0 1.0d2 0
+0
+!!
+!!
+!! gravity vector (1, 2, 3).
+0.0d0 0.0d0 -9.81d0
+

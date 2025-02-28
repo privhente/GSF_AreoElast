@@ -1,0 +1,706 @@
+ -----------------------------------------
+ Starting DeSiO-FSI.exe...
+ -----------------------------------------
+ Parsing shell element input...
+ Parsing springs for 12 DOF ...
+ Parsing matrices for 12 DOF ...
+ Parsing springs for 12 DOF ...
+ Parsing constraints for 6 DOF nodes...
+ Warning: Check constraint6input.txt! Definition of Node #2 is wrong!
+ Warning: Check constraint6input.txt! Definition of Node #2 is wrong!
+ Warning: Check constraint6input.txt! Definition of Node #2 is wrong!
+ Warning: Check constraint6input.txt! Definition of Node #2 is wrong!
+ Warning: Check constraint6input.txt! Definition of Node #2 is wrong!
+ Parsing constraints for 12 DOF nodes...
+ Parsing constraints for 6 DOF and 12 DOF nodes...
+ Parsing boundary condition amplitudes for 12 DOF constraints...
+ Parsing loads for 6 DOF constraints...
+ Parsing loads for 12 DOF constraints...
+ Parsing point masses for 6 DOF constraints...
+ Parsing point masses for 12 DOF constraints...
+ Parsing simulation input file...
+ Parsing postprocessing input file...
+ Warning: no postprocessing input file found!
+ Parsing bounded vortex elements
+ Warning: no surfaceinput.txt found
+ Parsing unbounded vortex elements
+ Warning: no wakeinput.txt found
+ Parsing aero-simulation input file
+ Warning: no simulation file for DeSiO-Aero available...
+ Parsing FSI-simulation input file
+ Warning: no simulation file for DeSiO-FSI available...
+ Parsing FSI input file
+ Warning: no fsi input file for DeSiO-FSI available...
+ Error: simulation abort due to error in fsi...
+ Continuing with DeSiO-Structure.exe...
+ -----------------------------------------
+ Starting DeSiO-Structure...
+ -----------------------------------------
+ Initializing simulation model...
+ Allocating and initializing elements and bodies...
+ Allocating nodes...
+ Initializing shells...
+ Calculating sparse mass matrix...
+ finding non-zero entries in the iteration matrix
+ Initializing sparse iteration matrix...
+ sparse non-zeroes:      318891
+ running simulation with timestep:   1.000000000000000E-002
+ Simulation type: dynamic
+  Starting dynamic calculation at time:    0.00000
+     residuum:   0.94E+00 convergence work:  0.38E+002
+     residuum:   0.48E-01 convergence work:  0.26E+002
+     residuum:   0.20E-02 convergence work:  0.75E-003
+     residuum:   0.54E-05 convergence work:  0.71E-008
+     residuum:   0.65E-10 convergence work:  0.66E-018
+     time:    0.01000 iterations:  5 residuum:  0.65E-010
+     residuum:   0.64E+00 convergence work:  0.92E+002
+     residuum:   0.22E+00 convergence work:  0.11E+003
+     residuum:   0.37E-02 convergence work:  0.20E-002
+     residuum:   0.16E-04 convergence work:  0.25E-008
+     residuum:   0.40E-07 convergence work:  0.17E-014
+     residuum:   0.83E-10 convergence work:  0.40E-020
+     time:    0.02000 iterations:  6 residuum:  0.83E-010
+     residuum:   0.56E+00 convergence work:  0.12E+003
+     residuum:   0.36E+00 convergence work:  0.11E+003
+     residuum:   0.36E-02 convergence work:  0.16E-002
+     residuum:   0.12E-04 convergence work:  0.23E-008
+     residuum:   0.27E-07 convergence work:  0.32E-014
+     residuum:   0.89E-10 convergence work:  0.80E-020
+     time:    0.03000 iterations:  6 residuum:  0.89E-010
+     residuum:   0.60E+00 convergence work:  0.15E+003
+     residuum:   0.52E+00 convergence work:  0.13E+003
+     residuum:   0.55E-02 convergence work:  0.37E-002
+     residuum:   0.32E-04 convergence work:  0.25E-006
+     residuum:   0.89E-07 convergence work:  0.16E-012
+     residuum:   0.21E-09 convergence work:  0.54E-018
+     time:    0.04000 iterations:  6 residuum:  0.21E-009
+     residuum:   0.76E+00 convergence work:  0.17E+003
+     residuum:   0.57E+00 convergence work:  0.13E+003
+     residuum:   0.38E-02 convergence work:  0.28E-002
+     residuum:   0.24E-04 convergence work:  0.26E-007
+     residuum:   0.70E-07 convergence work:  0.97E-013
+     residuum:   0.29E-09 convergence work:  0.45E-018
+     time:    0.05000 iterations:  6 residuum:  0.29E-009
+     residuum:   0.11E+01 convergence work:  0.48E+002
+     residuum:   0.38E+00 convergence work:  0.80E+002
+     residuum:   0.24E-02 convergence work:  0.16E-002
+     residuum:   0.12E-04 convergence work:  0.12E-008
+     residuum:   0.50E-07 convergence work:  0.50E-013
+     residuum:   0.22E-09 convergence work:  0.42E-018
+     time:    0.06000 iterations:  6 residuum:  0.22E-009
+     residuum:   0.11E+01 convergence work:  0.77E+001
+     residuum:   0.30E+00 convergence work:  0.68E+002
+     residuum:   0.22E-02 convergence work:  0.13E-002
+     residuum:   0.12E-04 convergence work:  0.11E-008
+     residuum:   0.30E-07 convergence work:  0.19E-013
+     residuum:   0.16E-09 convergence work:  0.21E-018
+     time:    0.07000 iterations:  6 residuum:  0.16E-009
+     residuum:   0.14E+01 convergence work:  0.15E+002
+     residuum:   0.40E+00 convergence work:  0.64E+002
+     residuum:   0.19E-02 convergence work:  0.13E-002
+     residuum:   0.10E-04 convergence work:  0.62E-009
+     residuum:   0.15E-07 convergence work:  0.79E-014
+     residuum:   0.56E-10 convergence work:  0.26E-019
+     time:    0.08000 iterations:  6 residuum:  0.56E-010
+     residuum:   0.15E+01 convergence work:  0.35E+002
+     residuum:   0.21E+00 convergence work:  0.91E+002
+     residuum:   0.20E-02 convergence work:  0.28E-002
+     residuum:   0.33E-05 convergence work:  0.10E-007
+     residuum:   0.21E-07 convergence work:  0.57E-013
+     residuum:   0.91E-10 convergence work:  0.59E-018
+     time:    0.09000 iterations:  6 residuum:  0.91E-010
+     residuum:   0.57E+00 convergence work:  0.12E+003
+     residuum:   0.11E+00 convergence work:  0.38E+002
+     residuum:   0.68E-03 convergence work:  0.85E-003
+     residuum:   0.35E-05 convergence work:  0.36E-008
+     residuum:   0.10E-07 convergence work:  0.77E-013
+     residuum:   0.89E-10 convergence work:  0.16E-017
+     time:    0.10000 iterations:  6 residuum:  0.89E-010
+     residuum:   0.50E+00 convergence work:  0.77E+002
+     residuum:   0.28E-01 convergence work:  0.66E+001
+     residuum:   0.53E-04 convergence work:  0.12E-004
+     residuum:   0.19E-06 convergence work:  0.27E-010
+     residuum:   0.60E-09 convergence work:  0.60E-016
+     time:    0.11000 iterations:  5 residuum:  0.60E-009
+     residuum:   0.23E+00 convergence work:  0.32E+001
+     residuum:   0.21E-01 convergence work:  0.36E+001
+     residuum:   0.63E-04 convergence work:  0.38E-004
+     residuum:   0.28E-06 convergence work:  0.38E-010
+     residuum:   0.52E-09 convergence work:  0.83E-016
+     time:    0.12000 iterations:  5 residuum:  0.52E-009
+     residuum:   0.32E+00 convergence work:  0.73E+002
+     residuum:   0.50E-01 convergence work:  0.59E+001
+     residuum:   0.32E-03 convergence work:  0.33E-004
+     residuum:   0.20E-06 convergence work:  0.55E-011
+     residuum:   0.13E-09 convergence work:  0.34E-017
+     time:    0.13000 iterations:  5 residuum:  0.13E-009
+     residuum:   0.65E+00 convergence work:  0.95E+002
+     residuum:   0.13E+00 convergence work:  0.48E+002
+     residuum:   0.14E-02 convergence work:  0.95E-003
+     residuum:   0.36E-05 convergence work:  0.16E-007
+     residuum:   0.13E-07 convergence work:  0.15E-013
+     residuum:   0.23E-10 convergence work:  0.85E-019
+     time:    0.14000 iterations:  6 residuum:  0.23E-010
+     residuum:   0.69E+00 convergence work:  0.76E+002
+     residuum:   0.51E+00 convergence work:  0.11E+003
+     residuum:   0.20E-02 convergence work:  0.35E-002
+     residuum:   0.95E-05 convergence work:  0.11E-006
+     residuum:   0.35E-07 convergence work:  0.69E-013
+     residuum:   0.76E-10 convergence work:  0.85E-018
+     time:    0.15000 iterations:  6 residuum:  0.76E-010
+     residuum:   0.11E+01 convergence work:  0.14E+002
+     residuum:   0.39E+00 convergence work:  0.43E+002
+     residuum:   0.20E-02 convergence work:  0.15E-002
+     residuum:   0.32E-05 convergence work:  0.71E-008
+     residuum:   0.11E-07 convergence work:  0.65E-014
+     residuum:   0.32E-10 convergence work:  0.57E-019
+     time:    0.16000 iterations:  6 residuum:  0.32E-010
+     residuum:   0.15E+01 convergence work:  0.52E+002
+     residuum:   0.17E+00 convergence work:  0.11E+002
+     residuum:   0.99E-03 convergence work:  0.14E-003
+     residuum:   0.17E-05 convergence work:  0.18E-010
+     residuum:   0.60E-08 convergence work:  0.19E-015
+     time:    0.17000 iterations:  5 residuum:  0.60E-008
+     residuum:   0.63E+00 convergence work:  0.32E+002
+     residuum:   0.98E-01 convergence work:  0.18E+002
+     residuum:   0.42E-03 convergence work:  0.15E-003
+     residuum:   0.78E-06 convergence work:  0.17E-010
+     residuum:   0.23E-08 convergence work:  0.24E-014
+     time:    0.18000 iterations:  5 residuum:  0.23E-008
+     residuum:   0.61E+00 convergence work:  0.62E+002
+     residuum:   0.83E-01 convergence work:  0.25E+003
+     residuum:   0.16E-02 convergence work:  0.39E-001
+     residuum:   0.27E-04 convergence work:  0.21E-004
+     residuum:   0.19E-06 convergence work:  0.23E-010
+     residuum:   0.68E-09 convergence work:  0.34E-015
+     time:    0.19000 iterations:  6 residuum:  0.68E-009
+     residuum:   0.46E+00 convergence work:  0.49E+002
+     residuum:   0.12E+00 convergence work:  0.65E+003
+     residuum:   0.23E-02 convergence work:  0.63E-001
+     residuum:   0.22E-04 convergence work:  0.14E-005
+     residuum:   0.16E-06 convergence work:  0.21E-010
+     residuum:   0.91E-09 convergence work:  0.22E-015
+     time:    0.20000 iterations:  6 residuum:  0.91E-009
+     residuum:   0.35E+00 convergence work:  0.30E+001
+     residuum:   0.20E+00 convergence work:  0.27E+003
+     residuum:   0.18E-02 convergence work:  0.15E-001
+     residuum:   0.10E-04 convergence work:  0.17E-005
+     residuum:   0.88E-07 convergence work:  0.21E-011
+     residuum:   0.55E-09 convergence work:  0.13E-016
+     time:    0.21000 iterations:  6 residuum:  0.55E-009
+     residuum:   0.29E+00 convergence work:  0.10E+003
+     residuum:   0.19E+00 convergence work:  0.11E+003
+     residuum:   0.32E-02 convergence work:  0.33E-002
+     residuum:   0.83E-05 convergence work:  0.16E-006
+     residuum:   0.26E-07 convergence work:  0.35E-012
+     residuum:   0.11E-09 convergence work:  0.34E-017
+     time:    0.22000 iterations:  6 residuum:  0.11E-009
+     residuum:   0.86E+00 convergence work:  0.14E+003
+     residuum:   0.12E+00 convergence work:  0.39E+002
+     residuum:   0.26E-02 convergence work:  0.22E-002
+     residuum:   0.76E-05 convergence work:  0.20E-006
+     residuum:   0.56E-07 convergence work:  0.61E-012
+     residuum:   0.47E-09 convergence work:  0.25E-016
+     time:    0.23000 iterations:  6 residuum:  0.47E-009
+     residuum:   0.75E+00 convergence work:  0.82E+002
+     residuum:   0.48E-01 convergence work:  0.89E+001
+     residuum:   0.11E-02 convergence work:  0.37E-003
+     residuum:   0.14E-05 convergence work:  0.14E-008
+     residuum:   0.67E-08 convergence work:  0.58E-014
+     time:    0.24000 iterations:  5 residuum:  0.67E-008
+     residuum:   0.41E+00 convergence work:  0.25E+002
+     residuum:   0.52E-01 convergence work:  0.46E+001
+     residuum:   0.60E-03 convergence work:  0.47E-004
+     residuum:   0.40E-06 convergence work:  0.21E-010
+     residuum:   0.48E-09 convergence work:  0.55E-016
+     time:    0.25000 iterations:  5 residuum:  0.48E-009
+     residuum:   0.81E+00 convergence work:  0.18E+001
+     residuum:   0.54E-01 convergence work:  0.12E+002
+     residuum:   0.10E-02 convergence work:  0.29E-003
+     residuum:   0.12E-05 convergence work:  0.21E-009
+     residuum:   0.15E-08 convergence work:  0.83E-015
+     time:    0.26000 iterations:  5 residuum:  0.15E-008
+     residuum:   0.41E+00 convergence work:  0.23E+002
+     residuum:   0.40E-01 convergence work:  0.46E+002
+     residuum:   0.47E-03 convergence work:  0.49E-002
+     residuum:   0.18E-05 convergence work:  0.85E-006
+     residuum:   0.38E-08 convergence work:  0.12E-013
+     time:    0.27000 iterations:  5 residuum:  0.38E-008
+     residuum:   0.26E+00 convergence work:  0.50E+002
+     residuum:   0.29E-01 convergence work:  0.14E+003
+     residuum:   0.48E-03 convergence work:  0.60E-002
+     residuum:   0.35E-05 convergence work:  0.96E-006
+     residuum:   0.13E-07 convergence work:  0.75E-012
+     residuum:   0.47E-10 convergence work:  0.57E-017
+     time:    0.28000 iterations:  6 residuum:  0.47E-010
+     residuum:   0.28E+00 convergence work:  0.53E+002
+     residuum:   0.17E-01 convergence work:  0.58E+002
+     residuum:   0.56E-03 convergence work:  0.82E-002
+     residuum:   0.39E-05 convergence work:  0.24E-005
+     residuum:   0.12E-07 convergence work:  0.98E-012
+     residuum:   0.73E-10 convergence work:  0.15E-016
+     time:    0.29000 iterations:  6 residuum:  0.73E-010
+     residuum:   0.81E-01 convergence work:  0.17E+001
+     residuum:   0.10E-01 convergence work:  0.26E+002
+     residuum:   0.32E-03 convergence work:  0.25E-002
+     residuum:   0.14E-05 convergence work:  0.28E-006
+     residuum:   0.38E-08 convergence work:  0.10E-012
+     time:    0.30000 iterations:  5 residuum:  0.38E-008
+     residuum:   0.18E+00 convergence work:  0.80E+002
+     residuum:   0.29E-01 convergence work:  0.14E+002
+     residuum:   0.30E-03 convergence work:  0.24E-003
+     residuum:   0.65E-06 convergence work:  0.53E-009
+     residuum:   0.24E-08 convergence work:  0.26E-014
+     time:    0.31000 iterations:  5 residuum:  0.24E-008
+     residuum:   0.13E+00 convergence work:  0.12E+003
+     residuum:   0.67E-01 convergence work:  0.51E+002
+     residuum:   0.44E-03 convergence work:  0.12E-002
+     residuum:   0.94E-06 convergence work:  0.81E-009
+     residuum:   0.32E-08 convergence work:  0.18E-013
+     time:    0.32000 iterations:  5 residuum:  0.32E-008
+     residuum:   0.18E+00 convergence work:  0.60E+002
+     residuum:   0.92E-01 convergence work:  0.86E+002
+     residuum:   0.63E-03 convergence work:  0.13E-002
+     residuum:   0.12E-05 convergence work:  0.10E-008
+     residuum:   0.51E-08 convergence work:  0.25E-013
+     time:    0.33000 iterations:  5 residuum:  0.51E-008
+     residuum:   0.35E+00 convergence work:  0.67E+001
+     residuum:   0.99E-01 convergence work:  0.44E+002
+     residuum:   0.60E-03 convergence work:  0.48E-003
+     residuum:   0.10E-05 convergence work:  0.71E-009
+     residuum:   0.29E-08 convergence work:  0.20E-013
+     time:    0.34000 iterations:  5 residuum:  0.29E-008
+     residuum:   0.55E+00 convergence work:  0.11E+002
+     residuum:   0.11E+00 convergence work:  0.70E+002
+     residuum:   0.14E-02 convergence work:  0.83E-002
+     residuum:   0.99E-05 convergence work:  0.22E-005
+     residuum:   0.44E-07 convergence work:  0.14E-011
+     residuum:   0.23E-09 convergence work:  0.31E-016
+     time:    0.35000 iterations:  6 residuum:  0.23E-009
+     residuum:   0.55E+00 convergence work:  0.15E+002
+     residuum:   0.15E+00 convergence work:  0.29E+003
+     residuum:   0.26E-02 convergence work:  0.98E-002
+     residuum:   0.54E-04 convergence work:  0.17E-005
+     residuum:   0.32E-06 convergence work:  0.24E-010
+     residuum:   0.14E-08 convergence work:  0.41E-015
+     time:    0.36000 iterations:  6 residuum:  0.14E-008
+     residuum:   0.73E+00 convergence work:  0.15E+002
+     residuum:   0.13E+00 convergence work:  0.25E+003
+     residuum:   0.29E-02 convergence work:  0.26E-001
+     residuum:   0.46E-04 convergence work:  0.11E-004
+     residuum:   0.31E-06 convergence work:  0.24E-011
+     residuum:   0.18E-08 convergence work:  0.97E-016
+     time:    0.37000 iterations:  6 residuum:  0.18E-008
+     residuum:   0.57E+00 convergence work:  0.58E+001
+     residuum:   0.16E+00 convergence work:  0.22E+003
+     residuum:   0.19E-02 convergence work:  0.64E-002
+     residuum:   0.17E-04 convergence work:  0.32E-006
+     residuum:   0.11E-06 convergence work:  0.75E-012
+     residuum:   0.64E-09 convergence work:  0.20E-016
+     time:    0.38000 iterations:  6 residuum:  0.64E-009
+     residuum:   0.83E+00 convergence work:  0.39E+002
+     residuum:   0.24E+00 convergence work:  0.22E+003
+     residuum:   0.32E-02 convergence work:  0.16E-001
+     residuum:   0.27E-04 convergence work:  0.27E-005
+     residuum:   0.16E-06 convergence work:  0.11E-011
+     residuum:   0.96E-09 convergence work:  0.32E-016
+     time:    0.39000 iterations:  6 residuum:  0.96E-009
+     residuum:   0.77E+00 convergence work:  0.11E+003
+     residuum:   0.99E-01 convergence work:  0.23E+003
+     residuum:   0.24E-02 convergence work:  0.13E-001
+     residuum:   0.37E-04 convergence work:  0.43E-005
+     residuum:   0.17E-06 convergence work:  0.62E-011
+     residuum:   0.91E-09 convergence work:  0.10E-015
+     time:    0.40000 iterations:  6 residuum:  0.91E-009
+     residuum:   0.56E+00 convergence work:  0.11E+003
+     residuum:   0.34E-01 convergence work:  0.13E+003
+     residuum:   0.11E-02 convergence work:  0.91E-002
+     residuum:   0.11E-04 convergence work:  0.12E-005
+     residuum:   0.70E-07 convergence work:  0.12E-011
+     residuum:   0.40E-09 convergence work:  0.35E-016
+     time:    0.41000 iterations:  6 residuum:  0.40E-009
+     residuum:   0.42E+00 convergence work:  0.62E+002
+     residuum:   0.40E-01 convergence work:  0.32E+002
+     residuum:   0.73E-03 convergence work:  0.14E-002
+     residuum:   0.66E-05 convergence work:  0.70E-007
+     residuum:   0.39E-07 convergence work:  0.28E-012
+     residuum:   0.24E-09 convergence work:  0.10E-016
+     time:    0.42000 iterations:  6 residuum:  0.24E-009
+     residuum:   0.43E+00 convergence work:  0.33E+002
+     residuum:   0.36E-01 convergence work:  0.16E+001
+     residuum:   0.96E-04 convergence work:  0.67E-005
+     residuum:   0.15E-06 convergence work:  0.13E-010
+     residuum:   0.86E-09 convergence work:  0.18E-015
+     time:    0.43000 iterations:  5 residuum:  0.86E-009
+     residuum:   0.58E+00 convergence work:  0.18E+002
+     residuum:   0.55E-01 convergence work:  0.75E+001
+     residuum:   0.24E-03 convergence work:  0.35E-004
+     residuum:   0.97E-06 convergence work:  0.31E-009
+     residuum:   0.52E-08 convergence work:  0.54E-014
+     time:    0.44000 iterations:  5 residuum:  0.52E-008
+     residuum:   0.80E+00 convergence work:  0.24E+002
+     residuum:   0.17E+00 convergence work:  0.59E+002
+     residuum:   0.35E-02 convergence work:  0.42E-002
+     residuum:   0.23E-04 convergence work:  0.77E-006
+     residuum:   0.11E-06 convergence work:  0.10E-012
+     residuum:   0.57E-09 convergence work:  0.15E-017
+     time:    0.45000 iterations:  6 residuum:  0.57E-009
+     residuum:   0.11E+01 convergence work:  0.17E+002
+     residuum:   0.13E+00 convergence work:  0.15E+003
+     residuum:   0.38E-02 convergence work:  0.36E-002
+     residuum:   0.54E-04 convergence work:  0.25E-006
+     residuum:   0.32E-06 convergence work:  0.15E-011
+     residuum:   0.18E-08 convergence work:  0.19E-016
+     time:    0.46000 iterations:  6 residuum:  0.18E-008
+     residuum:   0.15E+01 convergence work:  0.29E+002
+     residuum:   0.45E-01 convergence work:  0.17E+002
+     residuum:   0.13E-02 convergence work:  0.14E-002
+     residuum:   0.65E-05 convergence work:  0.13E-006
+     residuum:   0.23E-07 convergence work:  0.11E-012
+     residuum:   0.12E-09 convergence work:  0.13E-017
+     time:    0.47000 iterations:  6 residuum:  0.12E-009
+     residuum:   0.74E+00 convergence work:  0.18E+002
+     residuum:   0.49E-01 convergence work:  0.47E+001
+     residuum:   0.18E-03 convergence work:  0.69E-005
+     residuum:   0.43E-06 convergence work:  0.28E-010
+     residuum:   0.10E-08 convergence work:  0.21E-015
+     time:    0.48000 iterations:  5 residuum:  0.10E-008
+     residuum:   0.49E+00 convergence work:  0.48E+002
+     residuum:   0.49E-01 convergence work:  0.66E+001
+     residuum:   0.69E-03 convergence work:  0.26E-003
+     residuum:   0.11E-05 convergence work:  0.80E-011
+     residuum:   0.41E-08 convergence work:  0.52E-014
+     time:    0.49000 iterations:  5 residuum:  0.41E-008
+     residuum:   0.59E+00 convergence work:  0.78E+002
+     residuum:   0.85E-01 convergence work:  0.50E+001
+     residuum:   0.48E-03 convergence work:  0.17E-004
+     residuum:   0.48E-06 convergence work:  0.33E-010
+     residuum:   0.16E-08 convergence work:  0.37E-015
+     time:    0.50000 iterations:  5 residuum:  0.16E-008
+     residuum:   0.10E+01 convergence work:  0.94E+002
+     residuum:   0.22E+00 convergence work:  0.13E+002
+     residuum:   0.26E-02 convergence work:  0.19E-003
+     residuum:   0.12E-05 convergence work:  0.14E-009
+     residuum:   0.57E-08 convergence work:  0.25E-014
+     time:    0.51000 iterations:  5 residuum:  0.57E-008
+     residuum:   0.14E+01 convergence work:  0.45E+002
+     residuum:   0.15E+00 convergence work:  0.26E+002
+     residuum:   0.32E-02 convergence work:  0.14E-002
+     residuum:   0.32E-05 convergence work:  0.16E-008
+     residuum:   0.43E-08 convergence work:  0.48E-014
+     time:    0.52000 iterations:  5 residuum:  0.43E-008
+     residuum:   0.77E+00 convergence work:  0.30E+002
+     residuum:   0.73E-01 convergence work:  0.15E+002
+     residuum:   0.67E-03 convergence work:  0.16E-003
+     residuum:   0.68E-06 convergence work:  0.26E-009
+     residuum:   0.22E-08 convergence work:  0.34E-014
+     time:    0.53000 iterations:  5 residuum:  0.22E-008
+     residuum:   0.39E+00 convergence work:  0.32E+002
+     residuum:   0.49E-01 convergence work:  0.19E+002
+     residuum:   0.25E-03 convergence work:  0.24E-003
+     residuum:   0.62E-06 convergence work:  0.60E-009
+     residuum:   0.25E-08 convergence work:  0.20E-013
+     time:    0.54000 iterations:  5 residuum:  0.25E-008
+     residuum:   0.22E+00 convergence work:  0.12E+002
+     residuum:   0.52E-01 convergence work:  0.39E+002
+     residuum:   0.50E-03 convergence work:  0.13E-002
+     residuum:   0.22E-05 convergence work:  0.63E-007
+     residuum:   0.10E-07 convergence work:  0.14E-012
+     time:    0.55000 iterations:  5 residuum:  0.10E-007
+     residuum:   0.16E+00 convergence work:  0.48E+001
+     residuum:   0.46E-01 convergence work:  0.94E+002
+     residuum:   0.72E-03 convergence work:  0.20E-002
+     residuum:   0.23E-05 convergence work:  0.14E-007
+     residuum:   0.13E-07 convergence work:  0.13E-012
+     residuum:   0.84E-10 convergence work:  0.37E-017
+     time:    0.56000 iterations:  6 residuum:  0.84E-010
+     residuum:   0.43E-01 convergence work:  0.75E+001
+     residuum:   0.42E-01 convergence work:  0.33E+003
+     residuum:   0.16E-02 convergence work:  0.55E-001
+     residuum:   0.31E-04 convergence work:  0.56E-004
+     residuum:   0.24E-06 convergence work:  0.10E-010
+     residuum:   0.91E-09 convergence work:  0.13E-014
+     time:    0.57000 iterations:  6 residuum:  0.91E-009
+     residuum:   0.91E-01 convergence work:  0.30E+002
+     residuum:   0.40E-01 convergence work:  0.65E+003
+     residuum:   0.97E-03 convergence work:  0.44E-001
+     residuum:   0.42E-04 convergence work:  0.35E-005
+     residuum:   0.30E-06 convergence work:  0.13E-009
+     residuum:   0.11E-08 convergence work:  0.14E-014
+     time:    0.58000 iterations:  6 residuum:  0.11E-008
+     residuum:   0.67E-01 convergence work:  0.10E+003
+     residuum:   0.26E-01 convergence work:  0.29E+003
+     residuum:   0.92E-03 convergence work:  0.38E-001
+     residuum:   0.15E-04 convergence work:  0.15E-004
+     residuum:   0.86E-07 convergence work:  0.17E-010
+     residuum:   0.38E-09 convergence work:  0.28E-015
+     time:    0.59000 iterations:  6 residuum:  0.38E-009
+     residuum:   0.89E-01 convergence work:  0.89E+002
+     residuum:   0.15E-01 convergence work:  0.23E+002
+     residuum:   0.29E-03 convergence work:  0.10E-002
+     residuum:   0.18E-05 convergence work:  0.52E-007
+     residuum:   0.67E-08 convergence work:  0.80E-013
+     time:    0.60000 iterations:  5 residuum:  0.67E-008
+     residuum:   0.15E+00 convergence work:  0.30E+002
+     residuum:   0.15E-01 convergence work:  0.54E+001
+     residuum:   0.66E-04 convergence work:  0.10E-004
+     residuum:   0.25E-06 convergence work:  0.61E-010
+     residuum:   0.15E-08 convergence work:  0.26E-014
+     time:    0.61000 iterations:  5 residuum:  0.15E-008
+     residuum:   0.12E+00 convergence work:  0.65E+001
+     residuum:   0.12E-01 convergence work:  0.77E+001
+     residuum:   0.24E-03 convergence work:  0.17E-003
+     residuum:   0.11E-05 convergence work:  0.45E-009
+     residuum:   0.55E-08 convergence work:  0.24E-013
+     time:    0.62000 iterations:  5 residuum:  0.55E-008
+     residuum:   0.80E-01 convergence work:  0.29E+002
+     residuum:   0.13E-01 convergence work:  0.43E+001
+     residuum:   0.10E-03 convergence work:  0.88E-004
+     residuum:   0.59E-06 convergence work:  0.31E-009
+     residuum:   0.26E-08 convergence work:  0.98E-014
+     time:    0.63000 iterations:  5 residuum:  0.26E-008
+     residuum:   0.12E+00 convergence work:  0.71E+002
+     residuum:   0.31E-01 convergence work:  0.11E+002
+     residuum:   0.24E-03 convergence work:  0.14E-003
+     residuum:   0.36E-06 convergence work:  0.38E-009
+     residuum:   0.16E-08 convergence work:  0.47E-014
+     time:    0.64000 iterations:  5 residuum:  0.16E-008
+     residuum:   0.27E+00 convergence work:  0.44E+002
+     residuum:   0.42E-01 convergence work:  0.20E+002
+     residuum:   0.23E-03 convergence work:  0.40E-003
+     residuum:   0.98E-06 convergence work:  0.47E-009
+     residuum:   0.38E-08 convergence work:  0.34E-013
+     time:    0.65000 iterations:  5 residuum:  0.38E-008
+     residuum:   0.19E+00 convergence work:  0.30E+001
+     residuum:   0.25E-01 convergence work:  0.22E+002
+     residuum:   0.12E-03 convergence work:  0.36E-003
+     residuum:   0.10E-05 convergence work:  0.18E-008
+     residuum:   0.63E-08 convergence work:  0.30E-013
+     time:    0.66000 iterations:  5 residuum:  0.63E-008
+     residuum:   0.94E-01 convergence work:  0.53E+002
+     residuum:   0.16E-01 convergence work:  0.35E+002
+     residuum:   0.27E-03 convergence work:  0.25E-002
+     residuum:   0.18E-05 convergence work:  0.30E-006
+     residuum:   0.78E-08 convergence work:  0.12E-012
+     time:    0.67000 iterations:  5 residuum:  0.78E-008
+     residuum:   0.21E+00 convergence work:  0.91E+002
+     residuum:   0.38E-01 convergence work:  0.47E+002
+     residuum:   0.50E-03 convergence work:  0.12E-002
+     residuum:   0.20E-05 convergence work:  0.48E-007
+     residuum:   0.12E-07 convergence work:  0.18E-012
+     residuum:   0.75E-10 convergence work:  0.50E-017
+     time:    0.68000 iterations:  6 residuum:  0.75E-010
+     residuum:   0.28E+00 convergence work:  0.58E+002
+     residuum:   0.62E-01 convergence work:  0.21E+002
+     residuum:   0.46E-03 convergence work:  0.47E-003
+     residuum:   0.88E-06 convergence work:  0.46E-009
+     residuum:   0.33E-08 convergence work:  0.75E-014
+     time:    0.69000 iterations:  5 residuum:  0.33E-008
+     residuum:   0.29E+00 convergence work:  0.56E+002
+     residuum:   0.99E-01 convergence work:  0.23E+002
+     residuum:   0.72E-03 convergence work:  0.60E-003
+     residuum:   0.13E-05 convergence work:  0.89E-009
+     residuum:   0.57E-08 convergence work:  0.16E-013
+     time:    0.70000 iterations:  5 residuum:  0.57E-008
+     residuum:   0.25E+00 convergence work:  0.27E+002
+     residuum:   0.14E+00 convergence work:  0.43E+002
+     residuum:   0.13E-02 convergence work:  0.63E-003
+     residuum:   0.23E-05 convergence work:  0.33E-009
+     residuum:   0.42E-08 convergence work:  0.12E-013
+     time:    0.71000 iterations:  5 residuum:  0.42E-008
+     residuum:   0.25E+00 convergence work:  0.55E+002
+     residuum:   0.13E+00 convergence work:  0.22E+002
+     residuum:   0.60E-03 convergence work:  0.14E-003
+     residuum:   0.74E-06 convergence work:  0.23E-009
+     residuum:   0.31E-08 convergence work:  0.17E-014
+     time:    0.72000 iterations:  5 residuum:  0.31E-008
+     residuum:   0.64E+00 convergence work:  0.53E+002
+     residuum:   0.95E-01 convergence work:  0.92E+001
+     residuum:   0.61E-03 convergence work:  0.19E-003
+     residuum:   0.17E-05 convergence work:  0.72E-009
+     residuum:   0.55E-08 convergence work:  0.12E-013
+     time:    0.73000 iterations:  5 residuum:  0.55E-008
+     residuum:   0.57E+00 convergence work:  0.49E+001
+     residuum:   0.95E-01 convergence work:  0.13E+003
+     residuum:   0.21E-02 convergence work:  0.48E-002
+     residuum:   0.26E-04 convergence work:  0.11E-005
+     residuum:   0.12E-06 convergence work:  0.13E-011
+     residuum:   0.50E-09 convergence work:  0.17E-016
+     time:    0.74000 iterations:  6 residuum:  0.50E-009
+     residuum:   0.54E+00 convergence work:  0.39E+002
+     residuum:   0.80E-01 convergence work:  0.11E+003
+     residuum:   0.22E-02 convergence work:  0.14E-001
+     residuum:   0.19E-04 convergence work:  0.42E-005
+     residuum:   0.62E-07 convergence work:  0.95E-012
+     residuum:   0.24E-09 convergence work:  0.12E-016
+     time:    0.75000 iterations:  6 residuum:  0.24E-009
+     residuum:   0.72E+00 convergence work:  0.43E+002
+     residuum:   0.73E-01 convergence work:  0.31E+002
+     residuum:   0.13E-02 convergence work:  0.15E-002
+     residuum:   0.57E-05 convergence work:  0.14E-006
+     residuum:   0.29E-07 convergence work:  0.18E-012
+     residuum:   0.15E-09 convergence work:  0.48E-017
+     time:    0.76000 iterations:  6 residuum:  0.15E-009
+     residuum:   0.43E+00 convergence work:  0.15E+002
+     residuum:   0.19E+00 convergence work:  0.17E+002
+     residuum:   0.14E-02 convergence work:  0.22E-003
+     residuum:   0.47E-05 convergence work:  0.44E-009
+     residuum:   0.11E-07 convergence work:  0.77E-014
+     residuum:   0.61E-10 convergence work:  0.11E-018
+     time:    0.77000 iterations:  6 residuum:  0.61E-010
+     residuum:   0.98E+00 convergence work:  0.45E+002
+     residuum:   0.17E+00 convergence work:  0.13E+002
+     residuum:   0.78E-03 convergence work:  0.96E-004
+     residuum:   0.41E-05 convergence work:  0.43E-009
+     residuum:   0.13E-07 convergence work:  0.21E-014
+     residuum:   0.96E-10 convergence work:  0.72E-019
+     time:    0.78000 iterations:  6 residuum:  0.96E-010
+     residuum:   0.12E+01 convergence work:  0.49E+002
+     residuum:   0.25E-01 convergence work:  0.78E+000
+     residuum:   0.39E-04 convergence work:  0.34E-006
+     residuum:   0.22E-06 convergence work:  0.19E-011
+     residuum:   0.21E-09 convergence work:  0.56E-017
+     time:    0.79000 iterations:  5 residuum:  0.21E-009
+     residuum:   0.32E+00 convergence work:  0.34E+002
+     residuum:   0.41E-01 convergence work:  0.12E+001
+     residuum:   0.11E-03 convergence work:  0.16E-005
+     residuum:   0.17E-06 convergence work:  0.54E-011
+     residuum:   0.77E-09 convergence work:  0.80E-016
+     time:    0.80000 iterations:  5 residuum:  0.77E-009
+     residuum:   0.94E+00 convergence work:  0.54E+002
+     residuum:   0.19E+00 convergence work:  0.84E+001
+     residuum:   0.37E-03 convergence work:  0.39E-004
+     residuum:   0.16E-05 convergence work:  0.24E-009
+     residuum:   0.11E-07 convergence work:  0.24E-014
+     residuum:   0.50E-10 convergence work:  0.45E-019
+     time:    0.81000 iterations:  6 residuum:  0.50E-010
+     residuum:   0.17E+01 convergence work:  0.44E+002
+     residuum:   0.85E-01 convergence work:  0.35E+002
+     residuum:   0.56E-03 convergence work:  0.67E-003
+     residuum:   0.59E-05 convergence work:  0.48E-008
+     residuum:   0.30E-07 convergence work:  0.14E-012
+     residuum:   0.19E-09 convergence work:  0.35E-017
+     time:    0.82000 iterations:  6 residuum:  0.19E-009
+     residuum:   0.16E+00 convergence work:  0.70E+002
+     residuum:   0.77E-01 convergence work:  0.18E+003
+     residuum:   0.24E-02 convergence work:  0.18E-001
+     residuum:   0.36E-04 convergence work:  0.63E-005
+     residuum:   0.21E-06 convergence work:  0.24E-011
+     residuum:   0.12E-08 convergence work:  0.87E-016
+     time:    0.83000 iterations:  6 residuum:  0.12E-008
+     residuum:   0.66E+00 convergence work:  0.62E+002
+     residuum:   0.16E+00 convergence work:  0.46E+003
+     residuum:   0.46E-02 convergence work:  0.29E-001
+     residuum:   0.75E-04 convergence work:  0.10E-005
+     residuum:   0.34E-06 convergence work:  0.12E-010
+     residuum:   0.16E-08 convergence work:  0.12E-015
+     time:    0.84000 iterations:  6 residuum:  0.16E-008
+     residuum:   0.12E+01 convergence work:  0.25E+002
+     residuum:   0.15E+00 convergence work:  0.27E+003
+     residuum:   0.49E-02 convergence work:  0.31E-001
+     residuum:   0.74E-04 convergence work:  0.10E-004
+     residuum:   0.40E-06 convergence work:  0.17E-010
+     residuum:   0.18E-08 convergence work:  0.48E-015
+     time:    0.85000 iterations:  6 residuum:  0.18E-008
+     residuum:   0.67E+00 convergence work:  0.63E+002
+     residuum:   0.17E+00 convergence work:  0.72E+002
+     residuum:   0.25E-02 convergence work:  0.20E-002
+     residuum:   0.93E-05 convergence work:  0.18E-007
+     residuum:   0.37E-07 convergence work:  0.19E-012
+     residuum:   0.20E-09 convergence work:  0.43E-017
+     time:    0.86000 iterations:  6 residuum:  0.20E-009
+     residuum:   0.47E+00 convergence work:  0.79E+002
+     residuum:   0.24E+00 convergence work:  0.97E+002
+     residuum:   0.29E-02 convergence work:  0.35E-002
+     residuum:   0.12E-04 convergence work:  0.71E-007
+     residuum:   0.43E-07 convergence work:  0.41E-012
+     residuum:   0.22E-09 convergence work:  0.72E-017
+     time:    0.87000 iterations:  6 residuum:  0.22E-009
+     residuum:   0.51E+00 convergence work:  0.26E+002
+     residuum:   0.29E+00 convergence work:  0.87E+002
+     residuum:   0.16E-02 convergence work:  0.19E-002
+     residuum:   0.11E-04 convergence work:  0.64E-008
+     residuum:   0.34E-07 convergence work:  0.15E-012
+     residuum:   0.15E-09 convergence work:  0.20E-017
+     time:    0.88000 iterations:  6 residuum:  0.15E-009
+     residuum:   0.65E+00 convergence work:  0.64E+001
+     residuum:   0.21E+00 convergence work:  0.63E+002
+     residuum:   0.16E-02 convergence work:  0.93E-003
+     residuum:   0.22E-05 convergence work:  0.66E-008
+     residuum:   0.84E-08 convergence work:  0.47E-013
+     time:    0.89000 iterations:  5 residuum:  0.84E-008
+     residuum:   0.66E+00 convergence work:  0.34E+002
+     residuum:   0.13E+00 convergence work:  0.93E+002
+     residuum:   0.75E-03 convergence work:  0.13E-002
+     residuum:   0.24E-05 convergence work:  0.96E-008
+     residuum:   0.12E-07 convergence work:  0.98E-013
+     residuum:   0.99E-10 convergence work:  0.26E-017
+     time:    0.90000 iterations:  6 residuum:  0.99E-010
+     residuum:   0.45E+00 convergence work:  0.80E+002
+     residuum:   0.64E-01 convergence work:  0.13E+003
+     residuum:   0.75E-03 convergence work:  0.68E-002
+     residuum:   0.38E-05 convergence work:  0.70E-006
+     residuum:   0.14E-07 convergence work:  0.29E-012
+     residuum:   0.40E-10 convergence work:  0.54E-018
+     time:    0.91000 iterations:  6 residuum:  0.40E-010
+     residuum:   0.21E+00 convergence work:  0.54E+002
+     residuum:   0.37E-01 convergence work:  0.14E+003
+     residuum:   0.67E-03 convergence work:  0.41E-002
+     residuum:   0.39E-05 convergence work:  0.19E-006
+     residuum:   0.16E-07 convergence work:  0.16E-012
+     residuum:   0.61E-10 convergence work:  0.13E-017
+     time:    0.92000 iterations:  6 residuum:  0.61E-010
+     residuum:   0.10E+00 convergence work:  0.44E+001
+     residuum:   0.55E-01 convergence work:  0.94E+002
+     residuum:   0.63E-03 convergence work:  0.24E-002
+     residuum:   0.15E-05 convergence work:  0.46E-007
+     residuum:   0.50E-08 convergence work:  0.28E-013
+     time:    0.93000 iterations:  5 residuum:  0.50E-008
+     residuum:   0.24E+00 convergence work:  0.33E+002
+     residuum:   0.63E-01 convergence work:  0.63E+002
+     residuum:   0.37E-03 convergence work:  0.86E-003
+     residuum:   0.15E-05 convergence work:  0.21E-007
+     residuum:   0.61E-08 convergence work:  0.73E-013
+     time:    0.94000 iterations:  5 residuum:  0.61E-008
+     residuum:   0.40E+00 convergence work:  0.51E+002
+     residuum:   0.42E-01 convergence work:  0.60E+002
+     residuum:   0.76E-03 convergence work:  0.17E-002
+     residuum:   0.22E-05 convergence work:  0.10E-006
+     residuum:   0.39E-08 convergence work:  0.89E-014
+     time:    0.95000 iterations:  5 residuum:  0.39E-008
+     residuum:   0.14E+00 convergence work:  0.24E+002
+     residuum:   0.33E-01 convergence work:  0.77E+002
+     residuum:   0.64E-03 convergence work:  0.15E-002
+     residuum:   0.31E-05 convergence work:  0.89E-007
+     residuum:   0.99E-08 convergence work:  0.39E-013
+     time:    0.96000 iterations:  5 residuum:  0.99E-008
+     residuum:   0.18E+00 convergence work:  0.13E+002
+     residuum:   0.34E-01 convergence work:  0.27E+002
+     residuum:   0.38E-03 convergence work:  0.73E-003
+     residuum:   0.80E-06 convergence work:  0.12E-007
+     residuum:   0.48E-08 convergence work:  0.27E-014
+     time:    0.97000 iterations:  5 residuum:  0.48E-008
+     residuum:   0.15E+00 convergence work:  0.17E+002
+     residuum:   0.28E-01 convergence work:  0.20E+001
+     residuum:   0.57E-04 convergence work:  0.68E-005
+     residuum:   0.26E-06 convergence work:  0.19E-010
+     residuum:   0.91E-09 convergence work:  0.74E-016
+     time:    0.98000 iterations:  5 residuum:  0.91E-009
+     residuum:   0.12E+00 convergence work:  0.83E+002
+     residuum:   0.39E-01 convergence work:  0.22E+002
+     residuum:   0.56E-03 convergence work:  0.93E-003
+     residuum:   0.21E-05 convergence work:  0.37E-007
+     residuum:   0.12E-07 convergence work:  0.10E-012
+     residuum:   0.72E-10 convergence work:  0.17E-017
+     time:    0.99000 iterations:  6 residuum:  0.72E-010
+     residuum:   0.29E+00 convergence work:  0.88E+002
+     residuum:   0.68E-01 convergence work:  0.11E+003
+     residuum:   0.72E-03 convergence work:  0.18E-002
+     residuum:   0.27E-05 convergence work:  0.11E-007
+     residuum:   0.17E-07 convergence work:  0.28E-012
+     residuum:   0.10E-09 convergence work:  0.63E-017
+     time:    1.00000 iterations:  6 residuum:  0.10E-009
+ Closing output files...
+  Simulation finished
+  CPU  time =    1032.078      seconds. 
+  Wall time =    345.4280      seconds. 

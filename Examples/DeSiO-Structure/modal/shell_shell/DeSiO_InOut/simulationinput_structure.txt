@@ -1,0 +1,18 @@
+!!
+!!
+!!
+solution
+!!
+!!
+!! Number of simulation types
+1
+!!
+!!
+!! simulation settings: number of EV (1), tolerance (2), emin, emax, solver flag (0 - dense; 1 - sparse)
+modal  
+10 1.0d-8 0.0d0 1.0d8 0
+0
+!!
+!!
+!! gravity direction (1, 2, 3).
+0.0d0 0.0d0 0.0d0

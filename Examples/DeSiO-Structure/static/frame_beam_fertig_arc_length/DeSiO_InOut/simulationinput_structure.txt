@@ -1,0 +1,18 @@
+!! 
+!! 
+!! simualtion filename 
+solution
+!! 
+!! 
+!! Number of simulations 
+1
+!! 
+!! 
+!! simulation settings: totalt (1), deltat (2), tolerance (3), iteration limit (4), arc length method (5), desired iterations (6)
+static_arc
+1.0d0 10.0d0 1.0d-6 50 2 3
+0
+!! 
+!! 
+!! gravity vector (1, 2, 3). 
+0.0d0 0.0d0 0.0d0 

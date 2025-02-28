@@ -1,0 +1,74 @@
+!! 
+!! 
+!! number of wakes (1), number of wake properties (2) 
+6 1 
+!! 
+!! 
+!! wake 1: number of surface (1), number of segments (2), property number (3) 
+1 4 1
+!! 
+!! 
+!! wake 1: nodes (1, 2), ring (3) 
+25 24 16 
+24 23 15 
+23 22 14 
+22 21 13 
+!! 
+!! 
+!! wake 2: number of surface (1), number of segments (2), property number (3) 
+1 4 1
+!! 
+!! 
+!! wake 2: nodes (1, 2), ring (3) 
+5 10 4 
+10 15 8 
+15 20 12 
+20 25 16 
+!! 
+!! 
+!! wake 3: number of surface (1), number of segments (2), property number (3) 
+1 4 1
+!! 
+!! 
+!! wake 3: nodes (1, 2), ring (3) 
+21 16 13 
+16 11 9 
+11 6 5 
+6 1 1 
+!! 
+!! 
+!! wake 4: number of surface (1), number of segments (2), property number (3) 
+2 4 1
+!! 
+!! 
+!! wake 4: nodes (1, 2), ring (3) 
+25 24 16 0.0d0
+24 23 15 0.0d0
+23 22 14 0.0d0
+22 21 13 0.0d0
+!! 
+!! 
+!! wake 5: number of surface (1), number of segments (2), property number (3) 
+2 4 1
+!! 
+!! 
+!! wake 6: nodes (1, 2), ring (3) 
+5 10 4 
+10 15 8 
+15 20 12 
+20 25 16 
+!! 
+!! 
+!! wake 6: number of surface (1), number of segments (2), property number (3) 
+2 4 1
+!! 
+!! 
+!! wake 6: nodes (1, 2), ring (3) 
+21 16 13 
+16 11 9 
+11 6 5 
+6 1 1 
+!! 
+!! 
+!! wake property 1: time cut (1), max. rows (2) 
+20 20 0.0d0

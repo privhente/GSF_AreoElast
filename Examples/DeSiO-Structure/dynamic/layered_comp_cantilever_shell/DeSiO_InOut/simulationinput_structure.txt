@@ -1,0 +1,19 @@
+!!
+!!
+!!
+solution
+!!
+!!
+!! Number of simulation types
+1
+!!
+!!
+!! simulation settings: totalt (1), deltat (2), tolerance (3), iteration limit (4), gravity flag (5) 
+dynamic 
+1.0d0 0.01d0 1.0d-8 50 0
+0
+!!
+!!
+!! gravity direction (1, 2, 3).
+0.0d0 0.0d0 0.0d0
+

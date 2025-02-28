@@ -1,0 +1,9 @@
+!!
+!!
+!! number of fsi (1)
+1
+!! input for fluid-structure interaction:
+!! (row 1) shell or beam (1), surface from fluid (2), number of structural bodies, (3) local search radius
+!! (row 2) bodies of structural elements
+beam	1	1	        0.5100000000d0
+1	
