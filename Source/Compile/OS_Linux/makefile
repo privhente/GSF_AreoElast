@@ -16,14 +16,15 @@ path_mod = $(path_desio)/mod
 # Compiler settings
 FC = ifx
 FFLAGS = -O2 -fp-model strict -fpp -fiopenmp -qmkl=parallel -heap-arrays -module $(path_mod)
-ifeq ($(CONTROLLER_ADDON),1)
-  FFLAGS += -DController_ADDON
-endif
 LIBS = -qmkl=parallel
 
 # Debug-Flag: Setze BUILD=DEBUG, um Debug-Einstellungen zu aktivieren.
 ifeq ($(BUILD),DEBUG)
   FFLAGS = -O0 -g -traceback -check all -fpp -fiopenmp -qmkl=parallel -heap-arrays -module $(path_mod)
+endif
+
+ifeq ($(CONTROLLER_ADDON),1)
+  FFLAGS += -DController_ADDON
 endif
 
 # Automatische Erfassung von .f90-Dateien
